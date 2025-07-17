@@ -1,0 +1,29 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>JAM_5_BASE_CENTRAL_STATION</ID> <!-- The ID of the planet this xml file is for -->
+
+	<Entry>
+		<ID>LEESPORK_JAM5_CACTUS</ID>
+		<Name>Cactus under platform</Name>
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+		
+		<IgnoreMoreToExplore/>
+		
+		<RumorFact>
+			<ID>LEESPORK_JAM5_FOUND_CACTUS_UNDER_PLATFORM</ID>
+			<RumorName>Cactus under platform</RumorName>
+			<Text>I found a cactus on the underside of a platform inside Central Station.</Text>
+			<SourceID>JAM_5_BASE_CENTRAL_STATION_ROOT</SourceID>
+		</RumorFact>
+		
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_CACTUS_NOMI_WONDERS_WHERE</ID>
+			<Text>A Nomai has also noticed it. They do not know how it got here.</Text>
+		</ExploreFact>
+		
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_CACTUS_GERALDINE</ID>
+			<Text>Her name is Geraldine. She is the big cousin of the "cat" I am looking for.</Text>
+		</ExploreFact>
+	</Entry>
+
+</AstroObjectEntry>

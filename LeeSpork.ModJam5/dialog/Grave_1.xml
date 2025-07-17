@@ -1,0 +1,36 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>NO_CAT</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>R.I.P. Self-Insert. Died alone, never having found their missing cat.</Page>
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_REMNANT_FOUND</FactID> <!-- Should probably be got by entering a volume around the planet rather than this dialogue, and also should be its own entry rather than part of the grave? But whatev -->
+			<FactID>LEESPORK_JAM5_GRAVE_FOUND</FactID>
+			<FactID>LEESPORK_JAM5_DIED_ALONE</FactID>
+		</RevealFacts>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>YES_CAT</Name>
+		<EntryCondition>LEESPORK_JAM5_DIE_HAPPY</EntryCondition>
+		
+		<Dialogue>
+			<Page>R.I.P. Self-Insert. Died happy, loved by their cat.</Page>
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_REMNANT_FOUND</FactID>
+			<FactID>LEESPORK_JAM5_GRAVE_FOUND</FactID>
+		</RevealFacts>
+		
+	</DialogueNode>
+
+
+</DialogueTree>

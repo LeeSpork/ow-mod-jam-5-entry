@@ -1,0 +1,63 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>LeeSpork.ModJam5.NotTimberHearth</ID> <!-- The ID of the planet this xml file is for -->
+
+	<Entry>
+		<ID>LEESPORK_JAM5_QUEST_GOT</ID>
+		<Name>The Mystery of I Cannot Find My Cat</Name>
+		<!-- Owner of missing cat -->
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+		<IsCuriosity/>
+		<!-- <IgnoreMoreToExplore/> -->
+
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_LOOKING_FOR_CAT</ID>
+			<Text>I agreed to help someone find their cat.</Text>
+		</ExploreFact>
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_DIED_ALONE</ID>
+			<RumorName>A cat that was lost</RumorName>
+			<Text>If I do not help them find their cat before the star goes supernova, they will die sad and alone.</Text>
+			<SourceID>LEESPORK_JAM5_GRAVE</SourceID>
+		</RumorFact>
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_VESSEL_RECORDER_RUMOUR</ID>
+			<RumorName>"Cat" owner</RumorName>
+			<Text>I have found undeniable proof that the missing "cat" I have been looking for is actually a CACTUS. I should confront the "cat" owner about this at once.</Text>
+			<SourceID>LEESPORK_JAM5_VESSEL_RECORDER_ROOM</SourceID>
+		</RumorFact>
+
+	</Entry>
+
+	<Entry>
+		<ID>LEESPORK_JAM5_NORTH_POLE_TREE</ID>
+		<Name>Tree on North Pole</Name>
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+		
+		<RumorFact>
+			<ID>LEESPORK_JAM5_CAT_LAST_SEEN</ID>
+			<RumorName>Possible cat location</RumorName>
+			<Text>They said they last saw their climbing a tree on the North Pole of Log Fireplace.</Text>
+			<SourceID>LEESPORK_JAM5_QUEST_GOT</SourceID>
+		</RumorFact>
+		
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_TREE_RECORDER</ID>
+			<Text>The missing cat does not climb trees. Its owner has trouble remembering this.</Text>
+		</ExploreFact>
+		
+	</Entry>
+
+	<Entry>
+		<ID>LEESPORK_JAM5_WIN</ID>
+		<Name>You win!</Name>
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+		
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_YOU_WIN</ID>
+			<Text>You have successfully found the cat and returned it to its owner. Congratulations on beating this mod!</Text>
+		</ExploreFact>
+	</Entry>
+
+</AstroObjectEntry>

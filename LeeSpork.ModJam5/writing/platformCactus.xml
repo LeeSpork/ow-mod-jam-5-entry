@@ -1,0 +1,40 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			I have found a cactus on the bottom of this platform.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			How did it get here...?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			I will need to find an expert to have it removed.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		
+		<RevealFact>
+			<FactID>LEESPORK_JAM5_FOUND_CACTUS_UNDER_PLATFORM</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		
+		<RevealFact>
+			<FactID>LEESPORK_JAM5_CACTUS_NOMI_WONDERS_WHERE</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		
+	</ShipLogConditions>
+
+</NomaiObject>

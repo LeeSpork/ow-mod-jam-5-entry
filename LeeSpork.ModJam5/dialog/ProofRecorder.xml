@@ -1,0 +1,27 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>RECORDING</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Hello, it's me. I accidentally stumbled into some hidden node in space, and well, I found this cool spaceship!</Page>
+			<Page>This place is completely overgrown with cacti... I wonder what happened here!</Page>
+			<Page>There's this alien recorder looking thing here, but I don't speak French. Or read alien, for that matter.</Page>
+			<Page>Aw, look at this little cactus! So cute and miniature!</Page>
+			<Page>Cute Cactus... Catcus... Cat cus....</Page>
+			<Page>What a cute cat!</Page>
+			<Page>You, my little spiney one, will be my pet cat!</Page>
+			<Page>And I will love and adore you forever, and I will never lose you!</Page>
+			<Page>Now to get out of this place before the overgrown cacti block the enterance...</Page>
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_VESSEL_RECORDER_FACT</FactID>
+			<FactID>LEESPORK_JAM5_VESSEL_RECORDER_RUMOUR</FactID>
+		</RevealFacts>
+		
+	</DialogueNode>
+
+</DialogueTree>

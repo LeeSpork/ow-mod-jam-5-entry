@@ -1,0 +1,46 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<TextBlock>
+		<ID>1</ID>
+		<Text>We are the Nomai of Echever's clan, one of smallest Nomai clans in the universe, in terms of physical size. We have come to this system in search of the Mouth of the Universe.</Text>
+	</TextBlock>
+
+	<TextBlock><ParentID>1</ParentID><ID>2</ID><Text>
+			Sadly, the jump coordinates computer encountered some interference with one of our newest inventions, resulting in our vessel mis-jumping into this strange, thorny place instead.
+	</Text></TextBlock>
+
+	<TextBlock><ParentID>2</ParentID><ID>3</ID><Text>
+			This invention, it was our most advanced technology yet: a hand-held teleportation device, capable of transporting matter to any destination instantly.
+	</Text></TextBlock>
+
+	<TextBlock><ParentID>3</ParentID><ID>4</ID><Text>
+			The prototype only works on cacti, but it is still such a breakthrough. We were really looking foward to presenting it at the next festival, but alas.
+	</Text></TextBlock>
+
+	<TextBlock><ParentID>4</ParentID><ID>5</ID><Text>
+			The interference between the vessel's warp core and the cactus teleporter has doomed us. Cacti is flooding the bridge, and we are running out of time.
+	</Text></TextBlock>
+
+	<TextBlock><ParentID>5</ParentID><ID>6</ID><Text>
+			To prevent this technology from being lost forever, we are launching it to safety in an escape pod.
+	</Text></TextBlock>
+
+	<TextBlock><ParentID>6</ParentID><ID>7</ID><Text>
+			...Wait, what do you mean we should have just used the device to teleport the cactus away so that we do not all die, and/or boarded the escape pod ourselves? ...Well, it is too late for that now. The escape pod has already been launched.
+	</Text></TextBlock>
+
+	<ShipLogConditions>
+		
+		<RevealFact>
+			<FactID>LEESPORK_JAM5_ESCAPE_POD_FROM_VESSEL</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		
+		<RevealFact>
+			<FactID>LEESPORK_JAM5_VESSEL_NOMAI_DEAD</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		
+	</ShipLogConditions>
+
+</NomaiObject>

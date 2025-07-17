@@ -1,0 +1,10 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Central Station",
+	"starSystem": "Jam5",
+
+	"ShipLog": {
+		"xmlFile": "shiplog/LeeSpork.ModJam5.platform.xml",
+		"spriteFolder": "shiplog/sprites"
+	}
+}

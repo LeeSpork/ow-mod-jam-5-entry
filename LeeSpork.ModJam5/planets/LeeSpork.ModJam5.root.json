@@ -1,0 +1,50 @@
+﻿{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "LeeSpork.ModJam5.root",
+	"starSystem": "Jam5",
+	"removeChildren": [ "Sector/Star/Audio_Star/SurfaceAudio_Sun" ],
+	"Base": {
+		"gravityFallOff": "inverseSquared",
+		"surfaceSize": 400,
+		"surfaceGravity": 10,
+		"centerOfSolarSystem": true
+	},
+	"Orbit": {
+		"staticPosition": {
+			"x": 1000,
+			"y": 2000,
+			"z": 5000
+		}
+	},
+	"Star": {
+		"lifespan": 3.625,
+		"supernovaSize": 2400,
+		//"supernovaSpeed": 12,
+		"stellarRemnantType": "custom",
+		"lightRadius": 2500,
+		"size": 300,
+		"solarLuminosity": 1,
+		"lightTint": {
+			"r": 255,
+			"g": 250,
+			"b": 240
+		},
+		"tint": {
+			"r": 216,
+			"g": 211,
+			"b": 65
+		},
+		"endtint": {
+			"r": 216,
+			"g": 71,
+			"b": 52
+		}
+	},
+	"ShipLog": {
+		"xmlFile": "shiplog/LeeSpork.ModJam5.Remnant.xml",
+		"spriteFolder": "shiplog/sprites",
+		"mapMode": {
+			//"selectable": false
+		}
+	}
+}

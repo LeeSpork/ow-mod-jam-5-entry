@@ -1,0 +1,39 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>your Cactus Teleporter</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Teleport cactus where?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+		
+			<DialogueOption>
+				<Text>Into the sun</Text>
+				<DialogueTarget>END</DialogueTarget>
+				<ConditionToSet>LEESPORK_JAM5_BLOCKING_CACTI_IN_SUN</ConditionToSet>
+			</DialogueOption>
+			
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END</Name>
+		
+		<Dialogue>
+			<Page>Teleporting cactus.</Page>
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_BLOCKED_CORRIDOR_UNBLOCKED</FactID>
+		</RevealFacts>
+		
+		<SetCondition>LEESPORK_JAM5_BLOCKING_CACTI_REMOVED</SetCondition>
+		
+	</DialogueNode>
+
+</DialogueTree>

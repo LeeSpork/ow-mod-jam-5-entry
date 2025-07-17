@@ -1,0 +1,102 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>LeeSpork.ModJam5.DimThorn</ID> <!-- The ID of the planet this xml file is for -->
+
+	<Entry>
+		<ID>LEESPORK_JAM5_DIMTHORN</ID>
+		<Name>Dim Thorn</Name>
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+		<!-- <IgnoreMoreToExplore/> -->
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_DIMTHORN_RUMOUR</ID>
+			<Text>The missing cat might be in Dim Thorn. It is a small Bramble seed in the furthest orbit of this star.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_DIMTHORN_PROBE_ENTER</ID>
+			<Text>I sent my Little Scout inside Dim Thorn. It must be bigger on the inside! Also, we are just going to ignore the large black sphere under the sun.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>LEESPORK_JAM5_HIDDEN_NODE</ID>
+		<Name>Hidden Node</Name>
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+		<!-- <IgnoreMoreToExplore/> -->
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_HIDDEN_NODE_DUPE_SIGNAL</ID>
+			<RumorName>Duplicate scout signal</RumorName>
+			<Text>Sending my Little Scout into Dim Thorn results in a duplicate signal originating from some point in space, but I don't see anything there.</Text>
+			<SourceID>LEESPORK_JAM5_DIMTHORN</SourceID>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_HIDDEN_NODE_DISCOVERED</ID>
+			<Text>I discovered a hidden Node that also leads into Dim Thorn's pocket dimension. It is hidden with some sort of cloaking field. Good thing I can mark the location of this ship log entry!</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>LEESPORK_JAM5_VESSEL</ID>
+		<Name>Small Vessel</Name>
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_VESSEL_FROM_SCOUT</ID>
+			<RumorName>Object inside pocket dimension</RumorName>
+			<Text>There is some sort of object inside Dim Thorn's pocket dimension that may be of Nomai origin.</Text>
+			<SourceID>LEESPORK_JAM5_DIMTHORN</SourceID>
+		</RumorFact>
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_VESSEL_FROM_HIDDEN_NODE</ID>
+			<RumorName>A way to the vessel</RumorName>
+			<Text>I can reach the vessel by entering the Hidden Node.</Text>
+			<SourceID>LEESPORK_JAM5_HIDDEN_NODE</SourceID>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_VESSEL_PLAYER_NEAR</ID>
+			<Text>I have arrived at a downsized vessel. Entering it might be a bit of a tight squeeze, but it should be possible.</Text>
+		</ExploreFact>
+
+		<Entry> <!-- Child entry -->
+			<ID>LEESPORK_JAM5_BLOCKED_CORRIDOR</ID>
+			<Name>Corridor blocked by cacti</Name>
+			<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+
+			<ExploreFact>
+				<ID>LEESPORK_JAM5_BLOCKED_CORRIDOR_PLAYER_NEAR</ID>
+				<Text>The corridor in the downsized vessel is blocked by cacti. If only I had some sort of cactus removal device...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>LEESPORK_JAM5_BLOCKED_CORRIDOR_UNBLOCKED</ID>
+				<Text>I have managed to unblock the corridor using the Cactus Teleporter.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry> <!-- Child entry 2 -->
+			<ID>LEESPORK_JAM5_VESSEL_RECORDER_ROOM</ID>
+			<Name>Room with recorders</Name>
+			<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+
+			<ExploreFact>
+				<ID>LEESPORK_JAM5_VESSEL_RECORDER_ROOM_REACHED</ID>
+				<Text>After the corridor that was blocked with cacti is a room with a Hearthian recorder and a Nomai recorder.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>LEESPORK_JAM5_VESSEL_RECORDER_FACT</ID>
+				<Text>The cat owner has somehow reached this room before me, and took a miniature cactus as their pet cat.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>LEESPORK_JAM5_VESSEL_NOMAI_DEAD</ID>
+				<Text>Due to poor planning, the Nomai could not escape the vessel and were all killed by cacti.</Text>
+			</ExploreFact>
+		</Entry>
+	</Entry>
+
+</AstroObjectEntry>

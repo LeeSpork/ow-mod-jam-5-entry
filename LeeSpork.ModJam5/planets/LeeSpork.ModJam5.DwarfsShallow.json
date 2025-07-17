@@ -1,0 +1,124 @@
+{
+	"name": "LeeSpork.ModJam5.DwarfsShallow",
+	"starSystem": "Jam5",
+	"Orbit": {
+		"primaryBody": "LeeSpork.ModJam5.root",
+		"semiMajorAxis": 1900
+	},
+	"Base" : {
+		"surfaceGravity": 24,
+		"surfaceSize": 200,
+	},
+	"Water": {
+		"size": 200,
+		"tint": {
+			  "r": 33,
+			  "g": 122,
+			  "b": 67
+		}
+	},
+	"Atmosphere": {
+		"size": 267,
+		"atmosphereTint": {
+			  "r": 51,
+			  "g": 183,
+			  "b": 77
+		},
+		"hasOxygen": false,
+		"hasRain": true,
+	},
+	"Props": {
+		"details": [
+			{
+				"rename": "EscapePod",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/EscapePod_Socket",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"removeChildren": [
+					"Interactibles_EscapePod/Prefab_NOM_Vessel_Computer"
+				]
+				//"keepLoaded": false // Should not be visible from space // parts of it are still visible from space
+			},
+			{
+				"rename": "Item_CactusTeleporter",
+				"path": "Comet_Body/Sector_CO/Sector_CometInterior/Props_CometInterior/Prefab_NOM_Box",
+				"position": {"x": -0.04724467, "y": -1.488621, "z": -11.36496},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"item": {
+					"name": "Cactus Teleporter",
+					"colliderRadius": 0,
+					"pickupCondition": "LEESPORK_HOLDING_CACTUS_TELEPORTER",
+					"clearPickupConditionOnDrop": true,
+					"pickupFact": "LEESPORK_JAM5_CACTUS_TELEPORTER_PICKED_UP"
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"xmlFile": "writing/deviceInstructions.xml",
+				"seed": 8,
+				"position": {"x": -0.04724467, "y": -1.488621, "z": -11.36496},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"normal": {"x": 0, "y": 1, "z": 0}
+			}
+		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": {"x": 0, "y": 0, "z": 0},
+				"isRelativeToParent": true,
+				"radius": 53,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"reveals": [
+					"LEESPORK_JAM5_DS_STRUCTURE_REACHED"
+				]
+			},
+			{
+				"parentPath": "Sector/Item_CactusTeleporter",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"isRelativeToParent": true,
+				"radius": 5,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"reveals": [
+					"LEESPORK_JAM5_CACTUS_TELEPORTER_SPOTTED"
+				]
+			}
+		],
+		"fluidVolumes": [
+			{
+				"position": {"x": 0, "y": 0, "z": 0},
+				"radius": 15,
+				"type": "none"
+			}
+		],
+		//"zeroGravityVolumes": [
+		//	{
+		//		"position": {"x": 0, "y": 0, "z": 0},
+		//		"radius": 15
+		//	}
+		//],
+		"forces": {
+			"directionalVolumes": [
+				{
+					"position": {"x": 0, "y": 0, "z": 0},
+					"radius": 15,
+					"force": -0.56376,
+					"playGravityCrystalAudio": true
+				}
+			]
+		}
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"ShipLog": {
+		"xmlFile": "shiplog/LeeSpork.ModJam5.DwarfsShallow.xml",
+		"spriteFolder": "shiplog/sprites",
+		"mapMode": {
+			
+		}
+	}
+}

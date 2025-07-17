@@ -1,0 +1,57 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+	<ID>LeeSpork.ModJam5.DwarfsShallow</ID> <!-- The ID of the planet this xml file is for -->
+
+	<Entry>
+		<ID>LEESPORK_JAM5_DS_STRUCTURE</ID>
+		<Name>Dwarf's Shallow Escape Pod</Name>
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_ESCAPE_POD_FROM_VESSEL</ID>
+			<SourceID>LEESPORK_JAM5_VESSEL_RECORDER_ROOM</SourceID>
+			<RumorName>Escape Pod</RumorName>
+			<Text>The escape pod was launched from the vessel to protect the Cactus Teleporter.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_DS_STRUCTURE_REACHED</ID>
+			<Text>I have found a Nomai escape pod in the centre of Dwarf's Shallow.</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>LEESPORK_JAM5_CACTUS_TELEPORTER</ID>
+		<Name>Cactus Teleportation Device</Name>
+		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_CACTUS_TELEPORTER_SPOTTED</ID>
+			<RumorName>Handheld Device</RumorName>
+			<Text>There is a strange device inside the escape pod that I can pick up.</Text>
+			<SourceID>LEESPORK_JAM5_DS_STRUCTURE</SourceID>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_CACTUS_TELEPORTER_PICKED_UP</ID>
+			<Text>A handheld device of Nomai design that I can collect from the Dwarf's Shallow escape pod.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_CACTUS_TELEPORTER_INSTRUCTIONS</ID>
+			<Text>It can be used to teleport cacti. I just have to walk up to any cactus while holding it, press the button, and then select a destination for the cactus.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_CACTUS_TELEPORTER_NEED_PRO</ID>
+			<Text>I will not be able to add new co-ordinates to the cactus teleporter, unless I find a cactus professional.</Text>
+		</ExploreFact>
+
+		<RumorFact>
+			<ID>LEESPORK_JAM5_CAT_VASE_COORDS</ID>
+			<RumorName>Cactus Teleporter</RumorName>
+			<Text>The cat owner gave me the co-ordinates to the vase that his pet cactus belongs in.</Text>
+			<SourceID>LEESPORK_JAM5_QUEST_GOT</SourceID>
+		</RumorFact>
+	</Entry>
+
+</AstroObjectEntry>

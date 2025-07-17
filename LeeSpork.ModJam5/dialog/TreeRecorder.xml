@@ -1,0 +1,25 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>RECORDING</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Meow, I am my cat!</Page>
+			<Page>Just kidding, I am me. I have climbed this tree in search of my cat...</Page>
+			<Page>But I then remembered that my cat doesn't climb trees!</Page>
+			<Page>If you are listening to this recording, I must have once again forgotten this. I hope I can stop forgetting in the future...</Page>
+			<Page>He is a very well-behaved cat, not climbing up trees.</Page>
+			<Page>Hmm... but if this wasn't where I last saw my cat, where was it...</Page>
+			<Page>I know! It wasn't a tree, it was that Dim Thorn orbiting around the edge of the star system!</Page>
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_TREE_RECORDER</FactID>
+			<FactID>LEESPORK_JAM5_DIMTHORN_RUMOUR</FactID>
+		</RevealFacts>
+		
+	</DialogueNode>
+
+</DialogueTree>

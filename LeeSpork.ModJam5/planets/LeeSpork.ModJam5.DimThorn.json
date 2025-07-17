@@ -1,0 +1,39 @@
+{
+	"name": "LeeSpork.ModJam5.DimThorn",
+	"starSystem": "Jam5",
+	"Orbit": {
+		"primaryBody": "LeeSpork.ModJam5.root",
+		"semiMajorAxis": 2400
+	},
+	"Base" : {
+		"surfaceGravity": 0.3,
+		"surfaceSize": 7
+	},
+	"Bramble": {
+		"nodes": [
+			{
+				"name": "LeeSpork.ModJam5.DimThornExterior",
+				"linksTo": "LeeSpork.ModJam5.DimThornInterior",
+				"isSeed": true
+			}
+		]
+	},
+	"Props": {
+		"entryLocation": [
+			{
+				"id": "LEESPORK_JAM5_DIMTHORN",
+				"position": {"x": 0, "y": 0, "z": 0}, "isRelativeToParent": true
+			}
+		]
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"ShipLog": {
+		"xmlFile": "shiplog/LeeSpork.ModJam5.DimThorn.xml",
+		"spriteFolder": "shiplog/sprites",
+		"mapMode": {
+			
+		}
+	}
+}

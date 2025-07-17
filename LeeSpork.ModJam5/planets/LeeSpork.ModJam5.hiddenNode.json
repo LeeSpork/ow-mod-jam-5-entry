@@ -1,0 +1,37 @@
+{
+	"name": "LeeSpork.ModJam5.hiddenNode",
+	"starSystem": "Jam5",
+	"Orbit": {
+		"primaryBody": "LeeSpork.ModJam5.root",
+		"staticPosition": {"x": 1000, "y": 1000, "z": 1000}
+	},
+	"Base" : {
+		"surfaceGravity": 0.5,
+		"surfaceSize": 80
+	},
+	"Bramble": {
+		"nodes": [
+			{
+				"name": "LeeSpork.ModJam5.hiddenNodeExterior",
+				"linksTo": "LeeSpork.ModJam5.DimThornInterior",
+				"isSeed": false
+			}
+		]
+	},
+	"Cloak": {
+		"radius": 482
+	},
+	"Props": {
+		"entryLocation": [
+			{
+				"id": "LEESPORK_JAM5_HIDDEN_NODE",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"isRelativeToParent": true,
+				"cloaked": true
+			}
+		]
+	},
+	"MapMarker": {
+		"enabled": false
+	}
+}

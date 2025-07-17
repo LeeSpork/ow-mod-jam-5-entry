@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"name": "Jam5",
+	"initialReveal": [
+		
+	],
+	"curiosities": [
+		{
+			"id": "LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT",
+			"color": {
+				"r": 243,
+				"g": 193,
+				"b": 85,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 242,
+				"g": 216,
+				"b": 162,
+				"a": 255
+			}
+		}
+	],
+	"entryPositions": [
+		{
+			"id": "LEESPORK_JAM5_QUEST_GOT",
+			"position": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"id": "LEESPORK_JAM5_CACTUS",
+			"position": {
+				"x": -300,
+				"y": 0
+			}
+		}
+	]
+}

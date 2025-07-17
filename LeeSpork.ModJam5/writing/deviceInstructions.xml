@@ -1,0 +1,56 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Our latest invention: the Handheld Cactus Teleporation Device.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Simply walk up to a cactus that you wish to relocate, and press the button on the device. You will then be prompted with a list of known co-ordinates.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			Select your desired cactus destination, and the cactus will be teleported directly to that location, blink-and-you'll-miss-it quick!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			New co-ordinates can be programmed into the cactus teleportation device at any time using a proprietary format. For converting co-ordinates to the required format, please consult a trained cactus professional.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			Disclaimer: Cactus Teleporation Device may not work on cacti originating from outside our star system.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		
+		<RevealFact>
+			<Condition>3</Condition>
+			<FactID>LEESPORK_JAM5_CACTUS_TELEPORTER_INSTRUCTIONS</FactID>
+		</RevealFact>
+		
+		<RevealFact>
+			<Condition>4</Condition>
+			<FactID>LEESPORK_JAM5_CACTUS_TELEPORTER_NEED_PRO</FactID>
+		</RevealFact>
+		
+	</ShipLogConditions>
+
+</NomaiObject>

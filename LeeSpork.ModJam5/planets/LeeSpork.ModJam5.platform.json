@@ -1,0 +1,70 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "LeeSpork.ModJam5.platform",
+	"starSystem": "Jam5",
+	"extras": {
+		"isPlatform": true
+	},
+
+	"Props": {
+		"warpTransmitters": [
+			{
+				"frequency": "LeeSpork.ModJam5.Telepad",
+				"alignmentWindow": 360,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 60
+				}
+			}
+		],
+		"details": [
+			{
+				"rename": "MyCactus",
+				"alignToNormal": false,
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_SpeedCave/Interactables_SpeedCave/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Spread_A/Props_HGT_Cactus_Spread_A/SmallLobe_HGT_Cactus_Spread_A/",
+				"stretch": {"x": 0.6, "y": 0.7, "z": 0.6},
+				"rotation": {
+					"x": 354.644745,
+					"y": 358.0168,
+					"z": 180.714233
+				},
+				"position": {
+					"x": 0.192129254,
+					"y": -1.5894165,
+					"z": 66.2184143
+				},
+				"deactivationCondition": "LEESPORK_JAM5_CACTUS_MOVED_FROM_PLATFORM",
+				"blinkWhenActiveChanged": true
+			},
+			{
+				"rename": "teleporter_talker",
+				"parentPath": "Sector/MyCactus",
+				"position": {"x": 0, "y": 0.5, "z": 0},
+				"isRelativeToParent": true,
+				"activationCondition": "LEESPORK_HOLDING_CACTUS_TELEPORTER",
+				"blinkWhenActiveChanged": false
+				
+			}
+		],
+		"translatorText": [
+			{
+				"xmlFile": "writing/platformCactus.xml",
+				"seed": 6,
+				"position": {"x": 0.6417755, "y": -1.380696, "z": 68.39178},
+				"rotation": {"x": 359.7244, "y": 278.5406, "z": 185.3956},
+				"normal": {"x": 0.00922852, "y": -0.9955577, "z": 0.09369964},
+				"isRelativeToParent": true
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialog/Teleporter_Platform.xml",
+				"radius": 3.36,
+				"parentPath": "Sector/MyCactus/teleporter_talker",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"isRelativeToParent": true
+			}
+		]
+	}
+}

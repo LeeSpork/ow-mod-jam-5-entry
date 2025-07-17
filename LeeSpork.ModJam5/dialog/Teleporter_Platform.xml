@@ -1,0 +1,51 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>your Cactus Teleporter</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Teleport cactus where?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Into its vase</Text>
+				<DialogueTarget>END</DialogueTarget>
+				<ConditionToSet>LEESPORK_JAM5_CACTUS_RETURNED</ConditionToSet>
+				<RequiredLogCondition>LEESPORK_JAM5_CAT_VASE_COORDS</RequiredLogCondition>
+			</DialogueOption>
+			
+			<DialogueOption>
+				<Text>Into the sun</Text>
+				<DialogueTarget>END</DialogueTarget>
+				<ConditionToSet>LEESPORK_JAM5_CACTUS_TELEPORTED_TO_SUN</ConditionToSet>
+			</DialogueOption>
+			
+			
+			<DialogueOption>
+				<Text>Cancel</Text>
+				<DialogueTarget>CANCEL</DialogueTarget>
+			</DialogueOption>
+				
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Teleporting cactus.</Page>
+		</Dialogue>
+		<SetCondition>LEESPORK_JAM5_CACTUS_MOVED_FROM_PLATFORM</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>CANCEL</Name>
+		<Dialogue>
+			<Page>Cactus teleportation aborted.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

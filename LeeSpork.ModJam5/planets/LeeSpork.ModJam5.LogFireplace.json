@@ -1,0 +1,207 @@
+{
+	"name": "LeeSpork.ModJam5.LogFireplace",
+	"starSystem": "Jam5",
+	"Orbit": {
+		"primaryBody": "LeeSpork.ModJam5.root",
+		"semiMajorAxis": 1000
+	},
+	"Base" : {
+		"surfaceGravity": 10,
+		"surfaceSize": 55
+	},
+	"HeightMap": {
+		"heightmap": "planets/LeeSpork.ModJam5.LogFireplace_heightmap.png",
+		"textureMap": "planets/LeeSpork.ModJam5.LogFireplace_texturemap.png",
+		"minHeight": 30,
+		"maxHeight": 80,
+		"smoothness": 0.5
+	},
+	"Atmosphere": {
+		"size": 106,
+		"atmosphereTint": {
+			  "r": 124,
+			  "g": 235,
+			  "b": 239
+		},
+		"hasOxygen": true,
+		"hasTrees": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Props": {
+		"warpReceivers": [
+			{
+				"position": {"x": -3.269006, "y": 0.09459303, "z": -36.71063},
+				"rotation": {"x": 2.217226, "y": 94.80901, "z": 270},
+				"frequency": "LeeSpork.ModJam5.Telepad",
+				"isRelativeToParent": true
+			}
+		],
+		"details": [
+			{
+				"rename": "NPC_LeeSpork_SelfInsert",
+				"path": "TimeLoopRing_Body/Characters_TimeLoopRing/NPC_Player",
+				"position": {"x": 13.20929, "y": -0.585301, "z": -35.45249},
+				"rotation": {"x": 355.973, "y": 249.1099, "z": 91.64635},
+				"isRelativeToParent": true,
+				"removeChildren": [ "Traveller_Mesh_v01:Props_HEA_Jetpack", "ConversationZone_NPC_Player" ],
+				"removeComponents": true
+			},
+			{
+				"rename": "MyThinVase",
+				"itemSocket": null,
+				"position": {"x": 12.71042, "y": -2.438902, "z": -35.55614},
+				"rotation": {"x": 354.6017, "y": 250.7982, "z": 93.30707},
+				"quantumGroupID": null,
+				"keepLoaded": true,
+				"hasPhysics": false,
+				"physicsMass": 0.001,
+				"physicsRadius": 1.0,
+				"physicsSuspendUntilImpact": false,
+				"ignoreSun": false,
+				"activationCondition": null,
+				"deactivationCondition": null,
+				"blinkWhenActiveChanged": true,
+				"alignToNormal": false,
+				"assetBundle": null,
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_VaseThin",
+				"removeChildren": null,
+				"removeComponents": false,
+				"scale": 1.0,
+				"stretch": null,
+				"isRelativeToParent": false,
+				"parentPath": null
+			},
+			{
+				"rename": "MyCampfire",
+				"quantumGroupID": null,
+				"keepLoaded": true,
+				"hasPhysics": false,
+				"physicsMass": 0.001,
+				"physicsRadius": 1.0,
+				"physicsSuspendUntilImpact": false,
+				"ignoreSun": false,
+				"activationCondition": null,
+				"deactivationCondition": null,
+				"blinkWhenActiveChanged": true,
+				"item": null,
+				"itemSocket": null,
+				"alignToNormal": false,
+				"assetBundle": null,
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
+				"removeChildren": null,
+				"removeComponents": false,
+				"scale": 1.0,
+				"stretch": null,
+				"rotation": {
+					"x": 34.3645325,
+					"y": 250.762054,
+					"z": 86.06164
+				},
+				"alignRadial": null,
+				"position": {
+					"x": 10.5728054,
+					"y": 2.17122459,
+					"z": -36.2656746
+				},
+				"isRelativeToParent": false,
+				"parentPath": null
+			},
+			{
+				"rename": "Tree_NorthPole",
+				"quantumGroupID": null,
+				"keepLoaded": true,
+				"hasPhysics": false,
+				"physicsMass": 0.001,
+				"physicsRadius": 1.0,
+				"physicsSuspendUntilImpact": false,
+				"ignoreSun": false,
+				"activationCondition": null,
+				"deactivationCondition": null,
+				"blinkWhenActiveChanged": true,
+				"item": null,
+				"itemSocket": null,
+				"alignToNormal": false,
+				"assetBundle": null,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"removeChildren": null,
+				"removeComponents": false,
+				"scale": 1.0,
+				"stretch": null,
+				"rotation": {
+					"x": 3.90496349,
+					"y": 238.265747,
+					"z": 3.24986529
+				},
+				"alignRadial": null,
+				"position": {
+					"x": -1.59059477,
+					"y": 54.8395,
+					"z": -4.98292065
+				},
+				"isRelativeToParent": false,
+				"parentPath": null
+			},
+			{
+				"rename": "TreeRecorder",
+				"removeChildren": null,
+				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder",
+				"removeComponents": false,
+				"rotation": {"x": 356.443634, "y": 253.502625, "z": 93.29065},
+				"position": {"x": -2.15352821, "y": 74.53923, "z": -6.87635469}
+			},
+			{
+				"rename": "MyCactus",
+				"activationCondition": "LEESPORK_JAM5_CACTUS_RETURNED",
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_SpeedCave/Interactables_SpeedCave/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Spread_A/Props_HGT_Cactus_Spread_A/SmallLobe_HGT_Cactus_Spread_A/",
+				"stretch": {"x": 0.6, "y": 0.7, "z": 0.6},
+				"parentPath": "Sector/MyThinVase",
+				"position": {"x": 0, "y": 0.5618, "z": 0},
+				"isRelativeToParent": true
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 0,
+					"y": 1.6,
+					"z": 0
+				},
+				"xmlFile": "dialog/SelfInsert.xml",
+				"pathToAnimController": "Sector/NPC_LeeSpork_SelfInsert",
+				"isRelativeToParent": true
+			},
+			{
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"radius": 1,
+				"xmlFile": "dialog/TreeRecorder.xml",
+				"pathToAnimController": "Sector/TreeRecorder",
+				"isRelativeToParent": true
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "LEESPORK_JAM5_QUEST_GOT",
+				"position": {"x": 0, "y": 0, "z": 0}, "isRelativeToParent": true,
+				"parentPath": "Sector/NPC_LeeSpork_SelfInsert"
+			},
+			{
+				"id": "LEESPORK_JAM5_NORTH_POLE_TREE",
+				"position": {"x": 0, "y": 0, "z": 0}, "isRelativeToParent": true,
+				"parentPath": "Sector/Tree_NorthPole"
+			}
+		]
+	},
+	"ShipLog": {
+		"xmlFile": "shiplog/LeeSpork.ModJam5.LogFireplace.xml",
+		"spriteFolder": "shiplog/sprites",
+		"mapMode": {
+			
+		}
+	}
+}

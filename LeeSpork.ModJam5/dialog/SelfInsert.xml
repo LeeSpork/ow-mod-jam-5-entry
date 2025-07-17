@@ -1,0 +1,267 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Self-Insert</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Oh! Thank goodness you are here! I have lost my cat. I can't find him anywhere! Can you please help me?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+		
+			<DialogueOption>
+				<Text>I am already searching for him!</Text>
+				<DialogueTarget>HUB_1</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_LOOKING_FOR_CAT</RequiredLogCondition>
+			</DialogueOption>
+		
+			<DialogueOption>
+				<Text>Of course, I will help you find your cat!</Text>
+				<DialogueTarget>QUEST_GET</DialogueTarget>
+			</DialogueOption>
+			
+			<DialogueOption>
+				<Text>No, I do not care about your cat.</Text>
+				<DialogueTarget>DO_NOT_CARE</DialogueTarget>
+			</DialogueOption>
+			
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>TALK_AGAIN</Name>
+		<EntryCondition>TALKED_ONCE</EntryCondition>
+		
+		<Dialogue>
+			<Page>Hello again! Have you found my cat yet?</Page>
+		</Dialogue>
+		
+		<DialogueTarget>HUB_1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>DO_NOT_CARE</Name>
+		<Dialogue>
+			<Page>What? Then why did you install this mod...?</Page>
+			<Page>Well, fine. I'm sure the other Jam 5 entires ought to be better than this one, anyway. I'll be here if you change your mind.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>QUEST_GET</Name>
+		
+		<Dialogue>
+			<Page>Excellent! Then it is time to start investigating the Mystery of... "I Cannot Find My Cat"!</Page> <!-- KYLE REFERENVEASDFJKL -->
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_LOOKING_FOR_CAT</FactID>
+		</RevealFacts>
+		
+		<DialogueTarget>HUB_1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>HUB_1</Name>
+		
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
+		
+		<SetCondition>TALKED_ONCE</SetCondition>
+		
+		<DialogueOptionsList>
+			
+			<DialogueOption>
+				<Text>So, where might your cat actually be?</Text>
+				<DialogueTarget>TRUE_CAT_LOCATION_HINT</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_CAT_VASE_COORDS</RequiredLogCondition>
+			</DialogueOption>
+		
+			<DialogueOption>
+				<Text>I found a recording you left on the vessel in Dim Thorn. Your "cat" has been a catus this entire time?!</Text>
+				<DialogueTarget>ITS_A_CACTUS</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_VESSEL_RECORDER_RUMOUR</RequiredLogCondition>
+			</DialogueOption>
+		
+			<DialogueOption>
+				<Text>Your cat is not on the North tree, you left a recording there saying something about a Dim Thorn?</Text>
+				<DialogueTarget>CAT_NOT_ON_TREE</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_TREE_RECORDER</RequiredLogCondition>
+			</DialogueOption>
+
+			<DialogueOption>
+				<Text>Where did you last see your cat?</Text>
+				<DialogueTarget>LAST_SEE_CAT</DialogueTarget>
+				<CancelledCondition>REMEMBERS_CAT_NOT_ON_TREE</CancelledCondition>
+			</DialogueOption>
+
+			<DialogueOption>
+				<Text>Where did you last see your cat?</Text>
+				<DialogueTarget>LAST_SEE_CAT_NOT_TREE</DialogueTarget>
+				<RequiredCondition>REMEMBERS_CAT_NOT_ON_TREE</RequiredCondition>
+			</DialogueOption>
+			
+		</DialogueOptionsList>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>LAST_SEE_CAT</Name>
+		
+		<Dialogue>
+			<Page>I believe I last saw him climbing the tree on the North Pole of this planet. You know how cats are, always climbing trees.</Page>
+			<Page>That'd be a good place for you to start searching for him. I don't know why I haven't looked there myself!</Page>
+			<Page>Just follow the red beacon on your mini-map, I'm sure you'll find the tree!</Page>
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_CAT_LAST_SEEN</FactID>
+		</RevealFacts>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>CAT_NOT_ON_TREE</Name>
+		
+		<Dialogue>
+			<Page>Oh! Of course! How embarrassing, I must have mixed up Dim Thorn and the tree... They are both plants, after all...</Page>
+			<Page>Gosh I hope my cat is alright, Dim Thorn is not a very safe place at all! I can't enter it anyway, it is is too small, and thorny. And Dim.</Page>
+			<Page>But, can you please give it a shot? It looks like a small seed, and it is the furthest object orbiting my sun.</Page>
+		</Dialogue>
+		
+		<SetCondition>REMEMBERS_CAT_NOT_ON_TREE</SetCondition>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>LAST_SEE_CAT_NOT_TREE</Name>
+		<Dialogue>
+			<Page>It must have been Dim Thorn! Thank you for jogging my memory.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ITS_A_CACTUS</Name>
+		<Dialogue>
+			<Page>Ohh! That's right! Dim Thorn wasn't the last place I saw my cat, it was the FIRST!</Page>
+			<Page>And yeah, my cat is a catcus! That is what "cat" is short for! What did you think it was?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>It is pronounced "cactus." And a cat is an animal!</Text>
+				<DialogueTarget>ITS_A_CACTUS_2A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>...Fine, whatever. I'll find you "catcus" for you.</Text>
+				<DialogueTarget>ITS_A_CACTUS_2B</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ITS_A_CACTUS_2A</Name>
+		<Dialogue>
+			<Page>It is? Oh gosh, how embarrassing. I see how you were confused. Sorry about that!</Page>
+		</Dialogue>
+		<DialogueTarget>ITS_A_CACTUS_3</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ITS_A_CACTUS_2B</Name>
+		<Dialogue>
+			<Page>Excellent!</Page>
+		</Dialogue>
+		<DialogueTarget>ITS_A_CACTUS_3</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ITS_A_CACTUS_3</Name>
+		<Dialogue>
+			<Page>So yeah, my catcus. Cactus? My beloved cat. I would be forever greatful if you returned it to me! It goes in this thin little vase next to me.</Page>
+			<Page>Oh, that reminds me, you'll probably need some help getting it into my vase!</Page>
+			<Page>I can give you the exact co-ordinates to it, in the cactus professional standard. I am a well practised cactus professional, after years of cactus ownership - as good as any trained one in fact!</Page>
+			<Page>Here, now if you find any cactus transporting devices, you can bring my cat right to me!</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_CAT_VASE_COORDS</FactID>
+		</RevealFacts>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>So, where might your cat actually be?</Text>
+				<DialogueTarget>TRUE_CAT_LOCATION_HINT</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Thanks, that is all I need!</Text>
+				<DialogueTarget>GOODBYE</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>TRUE_CAT_LOCATION_HINT</Name>
+		<Dialogue>
+			<Page>Hmm... So my cat is not on Log Fireplace, not swimming in Dwarf's Shallow, not inside Dim Thorn...</Page>
+			<Page>So where could it be?! It could be anywhere! It could be right under our noses!</Page>
+			<Page>Have you tried looking under your bed? Underneath the <![CDATA[<color=orange>platform</color>]]>?</Page>
+			<Page>Don't forget, you are looking for a relatively small cactus that has a little flower on top.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>GOODBYE</Name>
+		<Dialogue>
+			<Page>Good luck!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>WIN_START</Name>
+		<EntryCondition>LEESPORK_JAM5_CACTUS_RETURNED</EntryCondition>
+		
+		<Dialogue>
+			<Page>My cat has been returned to me! Thank you so much!</Page>
+			<Page>So my cat was on the Central Station the whole time? You know come to think of it, why did I not consider that my cat could have used this giant warp pad that is directly in front of me?</Page>
+			<Page>But the important thing is, now we are together again, and we can now live our last moments together happily in peace.</Page>
+			<Page>One could say the time we have remaining together until the sun explodes is <![CDATA[<color=orange>miniature</color>]]>, but the love we feel for each other is anything but!</Page>
+			<Page>(Congratulations on beating the mod!)</Page>
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_YOU_WIN</FactID>
+		</RevealFacts>
+		
+		<SetCondition>LEESPORK_JAM5_DIE_HAPPY</SetCondition>
+		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>TRAP</Name>
+		
+		<Dialogue>
+			<Page>Special thanks to the developer(s) of the xen.NewHorizonsExamples mod, which I used for reference material for developing this mod.</Page>
+			<Page>Special thanks to the developer(s) of the xen.PlayAsGabbro mod, which I also used for reference.</Page>
+			<Page>Special thanks to the developer(s) of the xen-42.ModJam5 mod, which I also used for reference.</Page>
+			<Page>Wait, did I just thank xen42 three times? Anyway...</Page>
+			<Page>Special thanks to the developer(s) of the Trifid.TrifidJam3 mod, which I also used as reference.</Page>
+			<Page>Special thanks to the developer(s) of the LeeSpork.ModJam5 m- No wait, that's me.</Page>
+			<Page>Special thanks to all the contributors of New Horizons and its online guides, for making this mod possible despite me not bothering to learn how to code or create assets for Outer Wilds.</Page>
+			<Page>Special thanks to the developers of Outer Wilds, for obvious reasons.</Page>
+			<Page>Special thanks to the judges of the 5th Outer Wilds Mod Jam, who are presumably going to be judging this despite the fact that is not going to win,</Page>
+			<Page>and are therefore going to be giving me $0 in prize money, which means I win because the theme was miniature and you can't get much smaller than nothing!</Page>
+			<Page>Special thanks to Notepad++, even though I really should have been using something that actually checks if my code was valid</Page>
+			<Page>Special thanks to Paint.NET,</Page>
+			<Page>and BoltBait's Black and White+ v6.0 plugin</Page>
+			<Page>Special thanks to Firefox, in which I currently have seven thousand, five hundred and seventy-four tabs open across twenty-three windows.</Page>
+		</Dialogue>
+		
+		<RevealFacts>
+			<FactID>LEESPORK_JAM5_CAT_LAST_SEEN</FactID>
+		</RevealFacts>
+		
+	</DialogueNode>
+
+</DialogueTree>
