@@ -6,7 +6,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		
 		<Dialogue>
-			<Page>R.I.P. Self-Insert. Died alone, never having found their missing cat.</Page>
+			<Page>R.I.P. Leuc. Died alone, never having found their missing cat.</Page>
 		</Dialogue>
 		
 		<RevealFacts>
@@ -22,7 +22,7 @@
 		<EntryCondition>LEESPORK_JAM5_DIE_HAPPY</EntryCondition>
 		
 		<Dialogue>
-			<Page>R.I.P. Self-Insert. Died happy, loved by their cat.</Page>
+			<Page>R.I.P. Leuc. Lived a happy and fulfilling life with their beloved cat.</Page>
 		</Dialogue>
 		
 		<RevealFacts>

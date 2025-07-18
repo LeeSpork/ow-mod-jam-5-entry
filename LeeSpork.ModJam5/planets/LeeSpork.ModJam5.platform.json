@@ -65,6 +65,16 @@
 				"position": {"x": 0, "y": 0, "z": 0},
 				"isRelativeToParent": true
 			}
+		],
+		"entryLocation": [
+			{
+				"id": "LEESPORK_JAM5_CACTUS",
+				"position": {
+					"x": 0.192129254,
+					"y": -1.5894165,
+					"z": 66.2184143
+				}
+			}
 		]
 	}
 }

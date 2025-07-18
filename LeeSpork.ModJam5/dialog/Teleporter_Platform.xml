@@ -23,6 +23,10 @@
 				<ConditionToSet>LEESPORK_JAM5_CACTUS_TELEPORTED_TO_SUN</ConditionToSet>
 			</DialogueOption>
 			
+			<DialogueOption>
+				<Text>Into the vessel warp core</Text>
+				<DialogueTarget>NOPE</DialogueTarget>
+			</DialogueOption>
 			
 			<DialogueOption>
 				<Text>Cancel</Text>
@@ -45,6 +49,13 @@
 		<Name>CANCEL</Name>
 		<Dialogue>
 			<Page>Cactus teleportation aborted.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NOPE</Name>
+		<Dialogue>
+			<Page>Error: destination not permitted by device administrator due to incident. Please contact administrator Echever if you believe this is in error.</Page>
 		</Dialogue>
 	</DialogueNode>
 

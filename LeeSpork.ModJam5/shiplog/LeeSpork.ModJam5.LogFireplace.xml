@@ -11,21 +11,28 @@
 
 		<ExploreFact>
 			<ID>LEESPORK_JAM5_LOOKING_FOR_CAT</ID>
-			<Text>I agreed to help someone find their cat.</Text>
+			<Text>I agreed to help someone named Leuc find their cat.</Text>
 		</ExploreFact>
 
 		<RumorFact>
 			<ID>LEESPORK_JAM5_DIED_ALONE</ID>
 			<RumorName>A cat that was lost</RumorName>
-			<Text>If I do not help them find their cat before the star goes supernova, they will die sad and alone.</Text>
+			<Text>If I do not help Leuc find their cat before the star goes supernova, they will die sad and alone.</Text>
 			<SourceID>LEESPORK_JAM5_GRAVE</SourceID>
 		</RumorFact>
 
 		<RumorFact>
 			<ID>LEESPORK_JAM5_VESSEL_RECORDER_RUMOUR</ID>
 			<RumorName>"Cat" owner</RumorName>
-			<Text>I have found undeniable proof that the missing "cat" I have been looking for is actually a CACTUS. I should confront the "cat" owner about this at once.</Text>
+			<Text>I have found undeniable proof that the missing "cat" I have been looking for is actually a CACTUS. I should confront Leuc about this at once.</Text>
 			<SourceID>LEESPORK_JAM5_VESSEL_RECORDER_ROOM</SourceID>
+		</RumorFact>
+		
+		<RumorFact>
+			<ID>LEESPORK_JAM5_CACTUS_GONE_HOME</ID>
+			<RumorName>Cat owner</RumorName>
+			<Text>Using the cactus teleportation device, I was able to reunite Leuc with their missing "cat"!</Text>
+			<SourceID>LEESPORK_JAM5_CACTUS</SourceID>
 		</RumorFact>
 
 	</Entry>
@@ -44,7 +51,7 @@
 		
 		<ExploreFact>
 			<ID>LEESPORK_JAM5_TREE_RECORDER</ID>
-			<Text>The missing cat does not climb trees. Its owner has trouble remembering this.</Text>
+			<Text>The missing cat does not climb trees. Its owner, Leuc, has trouble remembering this.</Text>
 		</ExploreFact>
 		
 	</Entry>

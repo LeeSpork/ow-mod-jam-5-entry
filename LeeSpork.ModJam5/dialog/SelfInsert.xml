@@ -1,5 +1,6 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>Self-Insert</NameField>
+	<!-- <NameField>Self-Insert</NameField> -->
+	<NameField>Leuc</NameField>
 
 	<DialogueNode>
 		<Name>START</Name>
@@ -92,6 +93,12 @@
 				<DialogueTarget>CAT_NOT_ON_TREE</DialogueTarget>
 				<RequiredLogCondition>LEESPORK_JAM5_TREE_RECORDER</RequiredLogCondition>
 			</DialogueOption>
+		
+			<DialogueOption>
+				<Text>I could not find your cat swimming in Dwarf's Shallow.</Text>
+				<DialogueTarget>CAT_NOT_SWIMMING</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_CACTUS_TELEPORTER_SPOTTED</RequiredLogCondition>
+			</DialogueOption>
 
 			<DialogueOption>
 				<Text>Where did you last see your cat?</Text>
@@ -113,13 +120,15 @@
 		<Name>LAST_SEE_CAT</Name>
 		
 		<Dialogue>
-			<Page>I believe I last saw him climbing the tree on the North Pole of this planet. You know how cats are, always climbing trees.</Page>
-			<Page>That'd be a good place for you to start searching for him. I don't know why I haven't looked there myself!</Page>
-			<Page>Just follow the red beacon on your mini-map, I'm sure you'll find the tree!</Page>
+			<Page>I believe I last saw him climbing the tree on the North Pole of this planet. Just follow the red beacon on your mini-map, I'm sure you'll find the tree!</Page>
+			<Page>That'd be a good place for you to start searching for him. You know how cats are, always climbing trees. I don't know why I haven't looked there myself!</Page>
+			<!-- Only giving one location for the player to explore is lame -->
+			<Page>Or maybe I last saw him swimming in Dwarf's Shallow? You know, that green water planet. You might need a spaceship to go there, though.</Page>
 		</Dialogue>
 		
 		<RevealFacts>
 			<FactID>LEESPORK_JAM5_CAT_LAST_SEEN</FactID>
+			<FactID>LEESPORK_JAM5_SWIMMING</FactID>
 		</RevealFacts>
 		
 	</DialogueNode>
@@ -232,10 +241,21 @@
 		
 		<RevealFacts>
 			<FactID>LEESPORK_JAM5_YOU_WIN</FactID>
+			<FactID>LEESPORK_JAM5_CACTUS_IDENTITY</FactID>
+			<FactID>LEESPORK_JAM5_CACTUS_GONE_HOME</FactID>
 		</RevealFacts>
 		
 		<SetCondition>LEESPORK_JAM5_DIE_HAPPY</SetCondition>
 		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>CAT_NOT_SWIMMING</Name>
+		<Dialogue>
+			<Page>Hmmm... I must have been mistaken...</Page>
+			<Page>That makes a lot of sense actually, now that I think about it. My cat doesn't like swimming! He hates being over watered! What was I thinking?!</Page>
+			<Page>He must be at that other place I told you about.</Page>
+		</Dialogue>
 	</DialogueNode>
 
 	<DialogueNode>

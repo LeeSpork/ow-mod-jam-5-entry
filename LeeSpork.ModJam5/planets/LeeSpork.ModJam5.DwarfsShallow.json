@@ -61,6 +61,12 @@
 				"rotation": {"x": 0, "y": 0, "z": 0},
 				"normal": {"x": 0, "y": 1, "z": 0}
 			}
+		],
+		"entryLocation": [
+			{
+				"id": "LEESPORK_JAM5_DS_STRUCTURE",
+				"position": {"x": 0, "y": 0, "z": 0}
+			}
 		]
 	},
 	"Volumes": {

@@ -20,9 +20,14 @@
 			<Text>A Nomai has also noticed it. They do not know how it got here.</Text>
 		</ExploreFact>
 		
-		<ExploreFact>
+		<!--<ExploreFact>
 			<ID>LEESPORK_JAM5_CACTUS_GERALDINE</ID>
 			<Text>Her name is Geraldine. She is the big cousin of the "cat" I am looking for.</Text>
+		</ExploreFact>-->
+		
+		<ExploreFact>
+			<ID>LEESPORK_JAM5_CACTUS_IDENTITY</ID>
+			<Text>This whole time, Leuc's missing cat was actually this cactus!</Text>
 		</ExploreFact>
 	</Entry>
 

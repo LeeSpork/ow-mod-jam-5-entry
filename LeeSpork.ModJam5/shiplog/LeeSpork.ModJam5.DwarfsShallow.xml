@@ -7,6 +7,13 @@
 		<Curiosity>LEESPORK_JAM5_THE_MYSTERY_OF_I_CANNOT_FIND_MY_CAT</Curiosity>
 
 		<RumorFact>
+			<ID>LEESPORK_JAM5_SWIMMING</ID>
+			<RumorName>Possible cat location</RumorName>
+			<Text>They said their cat might have been swimming in the green water planet, Dwarf's Shallow. I will likely need to fly my spaceship to reach it. (I could mark the location of the cat owner in my ship log so that I know which star system to fly towards)</Text>
+			<SourceID>LEESPORK_JAM5_QUEST_GOT</SourceID>
+		</RumorFact>
+
+		<RumorFact>
 			<ID>LEESPORK_JAM5_ESCAPE_POD_FROM_VESSEL</ID>
 			<SourceID>LEESPORK_JAM5_VESSEL_RECORDER_ROOM</SourceID>
 			<RumorName>Escape Pod</RumorName>
@@ -15,7 +22,7 @@
 
 		<ExploreFact>
 			<ID>LEESPORK_JAM5_DS_STRUCTURE_REACHED</ID>
-			<Text>I have found a Nomai escape pod in the centre of Dwarf's Shallow.</Text>
+			<Text>I have found a Nomai escape pod submerged in the centre of Dwarf's Shallow.</Text>
 		</ExploreFact>
 	</Entry>
 
@@ -49,7 +56,7 @@
 		<RumorFact>
 			<ID>LEESPORK_JAM5_CAT_VASE_COORDS</ID>
 			<RumorName>Cactus Teleporter</RumorName>
-			<Text>The cat owner gave me the co-ordinates to the vase that his pet cactus belongs in.</Text>
+			<Text>The Leuc gave me the co-ordinates to the vase that their pet cactus belongs in.</Text>
 			<SourceID>LEESPORK_JAM5_QUEST_GOT</SourceID>
 		</RumorFact>
 	</Entry>

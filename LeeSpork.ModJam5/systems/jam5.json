@@ -29,12 +29,16 @@
 				"y": 0
 			}
 		},
-		{
-			"id": "LEESPORK_JAM5_CACTUS",
-			"position": {
-				"x": -300,
-				"y": 0
-			}
-		}
+		{"position": {"x":   0, "y":-450}, "id": "LEESPORK_JAM5_CACTUS"},
+		{"position": {"x":-470, "y":   0}, "id": "LEESPORK_JAM5_NORTH_POLE_TREE"},
+		{"position": {"x": 470, "y":   0}, "id": "LEESPORK_JAM5_DS_STRUCTURE"},
+		{"position": {"x": 330, "y":-332}, "id": "LEESPORK_JAM5_CACTUS_TELEPORTER"},
+		{"position": {"x":-270, "y": 300}, "id": "LEESPORK_JAM5_DIMTHORN"},
+		{"position": {"x": -50, "y": 500}, "id": "LEESPORK_JAM5_HIDDEN_NODE"},
+		{"position": {"x": 232, "y": 370}, "id": "LEESPORK_JAM5_VESSEL"},
+		{"position": {"x": 179, "y": 300}, "id": "LEESPORK_JAM5_BLOCKED_CORRIDOR"},
+		{"position": {"x": 285, "y": 300}, "id": "LEESPORK_JAM5_VESSEL_RECORDER_ROOM"},
+		{"position": {"x":-300, "y":-350}, "id": "LEESPORK_JAM5_GRAVE"},
+		{"position": {"x": 100, "y":-162}, "id": "LEESPORK_JAM5_WIN"}
 	]
 }

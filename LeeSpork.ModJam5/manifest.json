@@ -2,9 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
   "filename": "NewHorizonsConfig.dll",
   "author": "LeeSpork",
-  "name": "Unnamed LeeSpork Mod Jam 5 Entry",
+  "name": "The Mystery of I Cannot Find My Cat",
   "uniqueName": "LeeSpork.ModJam5",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "owmlVersion": "2.15.1",
   "dependencies": [ "xen.NewHorizons", "xen-42.ModJam5" ]
 }

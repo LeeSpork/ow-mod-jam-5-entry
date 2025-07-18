@@ -10,6 +10,8 @@
 		<RumorFact>
 			<ID>LEESPORK_JAM5_DIMTHORN_RUMOUR</ID>
 			<Text>The missing cat might be in Dim Thorn. It is a small Bramble seed in the furthest orbit of this star.</Text>
+			<SourceID>LEESPORK_JAM5_NORTH_POLE_TREE</SourceID>
+			<RumorName>Dim Thorn</RumorName>
 		</RumorFact>
 
 		<ExploreFact>
@@ -73,7 +75,7 @@
 
 			<ExploreFact>
 				<ID>LEESPORK_JAM5_BLOCKED_CORRIDOR_UNBLOCKED</ID>
-				<Text>I have managed to unblock the corridor using the Cactus Teleporter.</Text>
+				<Text>Using the Cactus Teleporter, the corridor can be unblocked.</Text>
 			</ExploreFact>
 		</Entry>
 
@@ -89,7 +91,7 @@
 
 			<ExploreFact>
 				<ID>LEESPORK_JAM5_VESSEL_RECORDER_FACT</ID>
-				<Text>The cat owner has somehow reached this room before me, and took a miniature cactus as their pet cat.</Text>
+				<Text>Leuc, the cat owner I have been helping, has somehow reached this room before me. They took a miniature cactus as their pet cat.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
