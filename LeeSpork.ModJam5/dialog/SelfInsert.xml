@@ -284,4 +284,21 @@
 		
 	</DialogueNode>
 
+	<DialogueNode>
+		<Name>WRONG_CACTUS</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>This is <![CDATA[<color=orange>NOT</color>]]> MY CAT!</Page>
+		</Dialogue>
+		<SetCondition>LEESPORK_JAM5_LEUC_KILLS_YOU</SetCondition>
+		<DialogueTarget>BIG_NO</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>BIG_NO</Name>
+		<Dialogue>
+			<Page>NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!</Page>
+		</Dialogue>
+	</DialogueNode>
+
 </DialogueTree>

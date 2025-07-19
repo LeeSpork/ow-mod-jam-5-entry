@@ -12,9 +12,21 @@
 		<DialogueOptionsList>
 		
 			<DialogueOption>
+				<Text>Into Leuc's vase</Text>
+				<DialogueTarget>END</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_CAT_VASE_COORDS</RequiredLogCondition>
+				<ConditionToSet>LEESPORK_JAM5_WRONG_CACTUS_IN_VASE</ConditionToSet>
+			</DialogueOption>
+			
+			<DialogueOption>
 				<Text>Into the sun</Text>
 				<DialogueTarget>END</DialogueTarget>
 				<ConditionToSet>LEESPORK_JAM5_BLOCKING_CACTI_IN_SUN</ConditionToSet>
+			</DialogueOption>
+			
+			<DialogueOption>
+				<Text>Cancel</Text>
+				<DialogueTarget>CANCEL</DialogueTarget>
 			</DialogueOption>
 			
 		</DialogueOptionsList>
@@ -34,6 +46,13 @@
 		
 		<SetCondition>LEESPORK_JAM5_BLOCKING_CACTI_REMOVED</SetCondition>
 		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>CANCEL</Name>
+		<Dialogue>
+			<Page>Cactus teleportation aborted.</Page>
+		</Dialogue>
 	</DialogueNode>
 
 </DialogueTree>

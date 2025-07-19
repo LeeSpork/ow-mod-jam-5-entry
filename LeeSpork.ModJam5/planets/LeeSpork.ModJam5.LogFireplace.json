@@ -90,6 +90,22 @@
 				"position": {"x": 9.3491, "y": 4.0271, "z": -36.4318},
 				"rotation": {"x": 67.3123, "y": 346.2, "z": 0.2908}
 			},
+			{
+				"rename": "KillVolumeDummy",
+				"activationCondition": "LEESPORK_JAM5_LEUC_KILLS_YOU",
+				"blinkWhenActiveChanged": false,
+				"position": {"x": 13.20929, "y": -0.585301, "z": -35.45249}
+			},
+			{
+				"rename": "BlockingCacti",
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedCaves/Interactables_LakebedCaves/QuantumMaze_Objects/Prefab_HT_QuantumStalactiteHALFBarrier (2)/Props_HGT_Cactus_Double_A/Main_HGT_Cactus_Double_A",
+				"scale": 1.34,
+				"activationCondition": "LEESPORK_JAM5_WRONG_CACTUS_IN_VASE",
+				"blinkWhenActiveChanged": true,
+				"parentPath": "Sector/MyThinVase",
+				"position": {"x": 0, "y": 0.5618, "z": 0},
+				"isRelativeToParent": true
+			},
 			
 			// RANDOM TREES
 			
@@ -185,6 +201,28 @@
 				"parentPath": "Sector/MyThinVase/MyCactus",
 				"isRelativeToParent": true,
 				"noFadeFromBeginning": true
+			}
+		],
+		//"hazardVolumes": [
+		//	{
+		//		"rename": "Leuc_kills_you_volume",
+		//		"parentPath": "Sector/KillVolumeDummy",
+		//		"isRelativeToParent": true,
+		//		"position": {"x": 0, "y": 0, "z": 0},
+		//		"radius": 25,
+		//		"damagePerSecond": 100,
+		//		"firstContactDamage": 100
+		//	}
+		//] // Hazard volumes simply do not work apparently ?? thx New Horizons
+		"destructionVolumes": [
+			{
+				"rename": "Leuc_kills_you_volume",
+				"parentPath": "Sector/KillVolumeDummy",
+				"isRelativeToParent": true,
+				"position": {"x": 0, "y": 0, "z": 0},
+				"radius": 25,
+				"onlyAffectsPlayerRelatedBodies": true,
+				"deathType": "crushed"
 			}
 		]
 	},
