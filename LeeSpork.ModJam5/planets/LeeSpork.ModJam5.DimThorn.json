@@ -26,6 +26,15 @@
 			}
 		]
 	},
+	"Sand": {
+		"curve": [
+			{"time": 0.0, "value": 0},
+			{"time": 3.5, "value": 0},
+			{"time": 3.9, "value": 0.5},
+			{"time": 22.0, "value": 0.5} // Value here is DOUBLED MULTIPLIER of size bellow. This isn't documented. WHY ????
+		],
+		"size": 6.5
+	},
 	"MapMarker": {
 		"enabled": true
 	},
