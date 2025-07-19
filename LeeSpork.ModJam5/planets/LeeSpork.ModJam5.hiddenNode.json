@@ -7,19 +7,20 @@
 	},
 	"Base" : {
 		"surfaceGravity": 0.5,
-		"surfaceSize": 80
+		"surfaceSize": 40
 	},
 	"Bramble": {
 		"nodes": [
 			{
 				"name": "LeeSpork.ModJam5.hiddenNodeExterior",
 				"linksTo": "LeeSpork.ModJam5.DimThornInterior",
-				"isSeed": false
+				"isSeed": false,
+				"scale": 0.5
 			}
 		]
 	},
 	"Cloak": {
-		"radius": 482
+		"radius": 300 //482
 	},
 	"Props": {
 		"entryLocation": [
