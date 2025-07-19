@@ -60,7 +60,7 @@
 		"dialogue": [
 			{
 				"xmlFile": "dialog/Teleporter_Platform.xml",
-				"radius": 3.36,
+				"radius": 1.43,
 				"parentPath": "Sector/MyCactus/teleporter_talker",
 				"position": {"x": 0, "y": 0, "z": 0},
 				"isRelativeToParent": true
