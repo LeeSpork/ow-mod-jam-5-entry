@@ -255,6 +255,19 @@
 			}
 		]
 	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"rename": "WinMusicVolume",
+				"audio": "OW End Credits 022019_3 AP",
+				"track": "music",
+				"radius": 55,
+				"parentPath": "Sector/MyThinVase/MyCactus",
+				"isRelativeToParent": true,
+				"noFadeFromBeginning": true
+			}
+		]
+	},
 	"ShipLog": {
 		"xmlFile": "shiplog/LeeSpork.ModJam5.LogFireplace.xml",
 		"spriteFolder": "shiplog/sprites",
