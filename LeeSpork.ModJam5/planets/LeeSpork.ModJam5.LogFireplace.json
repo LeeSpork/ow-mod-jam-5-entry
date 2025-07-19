@@ -159,6 +159,50 @@
 				"parentPath": "Sector/MyThinVase",
 				"position": {"x": 0, "y": 0.5618, "z": 0},
 				"isRelativeToParent": true
+			
+			// RANDOM TREES
+			
+			{
+				"scale": 1.0,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"rotation": {"x": 22.7278252, "y": 171.767, "z": 69.46896},
+				"position": {"x": 52.2327, "y": 17.4988842, "z": -0.5989361}
+			},
+			{
+				"scale": 1.0,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"rotation": {"x": 320.6507,"y": 312.145538,"z": 171.957657},
+				"position": {"x": -30.9611053,"y": -41.7556152,"z": 18.249773}
+			},
+			{
+				"scale": 1.0,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"rotation": {"x": 3.50042939,"y": 55.8041534,"z": 202.964462},
+				"position": {"x": 9.996462,"y": -50.34144,"z": -20.0186672}
+			},
+			{
+				"scale": 1.0,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"rotation": {"x": 356.133362,"y": 333.7557,"z": 225.124924},
+				"position": {"x": 33.7353172,"y": -38.898,"z": 19.5925255}
+			},
+			{
+				"scale": 1.0,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"rotation": {"x": 303.694366,"y": 113.814087,"z": 84.12903},
+				"position": {"x": 17.1142883,"y": 3.63989449,"z": 52.23986}
+			},
+			{
+				"scale": 1.0,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"rotation": {"x": 348.879822,"y": 94.47009,"z": 46.4212456},
+				"position": {"x": -3.95716476,"y": 37.13892,"z": 40.49464}
+			},
+			{
+				"scale": 1.0,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"rotation": {"x": 39.338028,"y": 197.216553,"z": 310.4078},
+				"position": {"x": -47.1228027,"y": 27.1584148,"z": -8.76209}
 			}
 		],
 		"dialogue": [
