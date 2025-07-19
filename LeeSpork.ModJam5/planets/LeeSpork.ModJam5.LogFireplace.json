@@ -159,6 +159,13 @@
 				"parentPath": "Sector/MyThinVase",
 				"position": {"x": 0, "y": 0.5618, "z": 0},
 				"isRelativeToParent": true
+			},
+			{
+				"rename": "Note_Campfire",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/Prefab_HEA_DeepFieldExhibit/DeepFieldNotes_1/plaque_paper_1 (1)",
+				"position": {"x": 9.3491, "y": 4.0271, "z": -36.4318},
+				"rotation": {"x": 67.3123, "y": 346.2, "z": 0.2908}
+			},
 			
 			// RANDOM TREES
 			
@@ -225,6 +232,13 @@
 				"radius": 1,
 				"xmlFile": "dialog/TreeRecorder.xml",
 				"pathToAnimController": "Sector/TreeRecorder",
+				"isRelativeToParent": true
+			},
+			{
+				"position": {"x": 0, "y": -0.15, "z": -0.05},
+				"radius": 0.4,
+				"xmlFile": "dialog/CampfireWarning.xml",
+				"parentPath": "Sector/Note_Campfire",
 				"isRelativeToParent": true
 			}
 		],

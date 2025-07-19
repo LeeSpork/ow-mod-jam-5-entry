@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Warning: Do NOT sleep at this campfire. You might not wake up, and you may have to Alt+F4.</Page>
+			<Page>- A concerned mod jam entrant</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
