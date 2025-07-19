@@ -286,9 +286,10 @@
 
 	<DialogueNode>
 		<Name>WRONG_CACTUS</Name>
-		<EntryCondition>DEFAULT</EntryCondition>
+		<EntryCondition>LEESPORK_JAM5_WRONG_CACTUS_IN_VASE</EntryCondition>
 		<Dialogue>
-			<Page>This is <![CDATA[<color=orange>NOT</color>]]> MY CAT!</Page>
+			<Page>This is <![CDATA[<color=orange><size=50>NOT</size></color>]]> MY CAT!</Page>
+			<Page>Mine is <![CDATA[<color=orange><size=25>miniature</size></color>]]>, not <![CDATA[<color=lightblue><size=50>oversized</size></color>]]>!</Page>
 		</Dialogue>
 		<SetCondition>LEESPORK_JAM5_LEUC_KILLS_YOU</SetCondition>
 		<DialogueTarget>BIG_NO</DialogueTarget>
@@ -297,7 +298,7 @@
 	<DialogueNode>
 		<Name>BIG_NO</Name>
 		<Dialogue>
-			<Page>NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!</Page>
+			<Page><![CDATA[<i>NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!</i>]]></Page>
 		</Dialogue>
 	</DialogueNode>
 
