@@ -8,9 +8,9 @@
 	"Bramble": {
 		"dimension":{
 			"linksTo": "LeeSpork.ModJam5.hiddenNodeExterior",
-			"radius": 225,
-			"vinePrefab": "none"
-			//"allowedEntrances": [3]
+			"radius": 90, // 125 would match downscaledscaled vessel, but must be smaller so vessel dimension batched collision doesn't get in way
+			"vinePrefab": "none",
+			"allowedEntrances": [5]
 		}
 	},
 	"Props": {
@@ -22,7 +22,7 @@
 				"rotation": {"x": 0, "y": 0, "z": 0},
 				"scale": 0.25,
 				"removeChildren": [
-					//"OtherComponentsGroup/Terrain_DB_BrambleSphere_Outer_v2"
+					"OtherComponentsGroup/Terrain_DB_BrambleSphere_Outer_v2" // Visuals of original vessel dimension outerior
 				]
 			},
 			{
