@@ -45,6 +45,26 @@
 				"activationCondition": "LEESPORK_HOLDING_CACTUS_TELEPORTER",
 				"blinkWhenActiveChanged": false
 				
+			},
+			{
+				"rename": "Your bench",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+				"rotation": {"x": -3.672065E-06, "y": 44.5618973, "z": -3.514683E-06},
+				"position": {"x": -7.487496, "y": 1.07288361E-05, "z": 52.55716}
+			},
+			{
+				"rename": "LeeSpork's bench",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+				"rotation": {"x": -5.068897E-06, "y": 314.405548, "z": 3.578425E-06},
+				"position": {"x": 7.46025562, "y": 1.07288361E-05, "z": 52.65178}
+			},
+			{
+				"rename": "spork",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/Props_HEA_Spork1",
+				"parentPath": "Sector/LeeSpork's bench",
+				"isRelativeToParent": true,
+				"position": {"x": 0.2744, "y": 0.652, "z": 0.0659},
+				"rotation": {"x": 2.5, "y": 323, "z": 270}
 			}
 		],
 		"translatorText": [
