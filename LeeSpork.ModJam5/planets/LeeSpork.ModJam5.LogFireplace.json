@@ -50,98 +50,22 @@
 			},
 			{
 				"rename": "MyThinVase",
-				"itemSocket": null,
 				"position": {"x": 12.71042, "y": -2.438902, "z": -35.55614},
 				"rotation": {"x": 354.6017, "y": 250.7982, "z": 93.30707},
-				"quantumGroupID": null,
-				"keepLoaded": true,
-				"hasPhysics": false,
-				"physicsMass": 0.001,
-				"physicsRadius": 1.0,
-				"physicsSuspendUntilImpact": false,
-				"ignoreSun": false,
-				"activationCondition": null,
-				"deactivationCondition": null,
-				"blinkWhenActiveChanged": true,
-				"alignToNormal": false,
-				"assetBundle": null,
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_VaseThin",
-				"removeChildren": null,
-				"removeComponents": false,
-				"scale": 1.0,
-				"stretch": null,
-				"isRelativeToParent": false,
-				"parentPath": null
 			},
 			{
 				"rename": "MyCampfire",
-				"quantumGroupID": null,
-				"keepLoaded": true,
-				"hasPhysics": false,
-				"physicsMass": 0.001,
-				"physicsRadius": 1.0,
-				"physicsSuspendUntilImpact": false,
-				"ignoreSun": false,
-				"activationCondition": null,
-				"deactivationCondition": null,
-				"blinkWhenActiveChanged": true,
-				"item": null,
-				"itemSocket": null,
-				"alignToNormal": false,
-				"assetBundle": null,
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
-				"removeChildren": null,
-				"removeComponents": false,
-				"scale": 1.0,
-				"stretch": null,
-				"rotation": {
-					"x": 34.3645325,
-					"y": 250.762054,
-					"z": 86.06164
-				},
+				"rotation": {"x": 34.3645325, "y": 250.762054, "z": 86.06164},
 				"alignRadial": null,
-				"position": {
-					"x": 10.5728054,
-					"y": 2.17122459,
-					"z": -36.2656746
-				},
-				"isRelativeToParent": false,
-				"parentPath": null
+				"position": {"x": 10.5728054, "y": 2.17122459, "z": -36.2656746}
 			},
 			{
 				"rename": "Tree_NorthPole",
-				"quantumGroupID": null,
-				"keepLoaded": true,
-				"hasPhysics": false,
-				"physicsMass": 0.001,
-				"physicsRadius": 1.0,
-				"physicsSuspendUntilImpact": false,
-				"ignoreSun": false,
-				"activationCondition": null,
-				"deactivationCondition": null,
-				"blinkWhenActiveChanged": true,
-				"item": null,
-				"itemSocket": null,
-				"alignToNormal": false,
-				"assetBundle": null,
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
-				"removeChildren": null,
-				"removeComponents": false,
-				"scale": 1.0,
-				"stretch": null,
-				"rotation": {
-					"x": 3.90496349,
-					"y": 238.265747,
-					"z": 3.24986529
-				},
-				"alignRadial": null,
-				"position": {
-					"x": -1.59059477,
-					"y": 54.8395,
-					"z": -4.98292065
-				},
-				"isRelativeToParent": false,
-				"parentPath": null
+				"rotation": {"x": 3.90496349, "y": 238.265747, "z": 3.24986529},
+				"position": {"x": -1.59059477, "y": 54.8395, "z": -4.98292065}
 			},
 			{
 				"rename": "TreeRecorder",
@@ -224,11 +148,7 @@
 				"isRelativeToParent": true
 			},
 			{
-				"position": {
-					"x": 0,
-					"y": 0,
-					"z": 0
-				},
+				"position": {"x": 0, "y": 0, "z": 0},
 				"radius": 1,
 				"xmlFile": "dialog/TreeRecorder.xml",
 				"pathToAnimController": "Sector/TreeRecorder",
