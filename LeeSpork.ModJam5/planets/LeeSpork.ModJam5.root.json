@@ -18,8 +18,9 @@
 	},
 	"Star": {
 		"lifespan": 3.625,
-		"supernovaSize": 2400,
+		"supernovaSize": 2300, // Must be less than 2500 due to Jam 5 rules
 		//"supernovaSpeed": 12,
+		"supernovaSpeed": 150, // Descreasing the speed increases the size of the blast ????
 		"stellarRemnantType": "custom",
 		"lightRadius": 2500,
 		"size": 300,
