@@ -3,4 +3,7 @@
 
 Can you help Leuc find their missing cat?
 
-Made in under two weeks for the fifth Outer Wilds Mod Jam.
+A story mod for Outer Wilds made in under two weeks for the 5th Outer Wilds Mod Jam, featuring:
+- 2 to 8 planets (depending on what you count as a planet),
+- Over 140 lines of dialogue, Nomai writing, and ship log facts,
+- and 1 Ernesto!
