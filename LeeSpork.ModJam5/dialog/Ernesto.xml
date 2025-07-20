@@ -7,7 +7,7 @@
 		
 		<Dialogue>
 			<Page>Meow, I am the cat.</Page>
-			<Page>Just kidding, it's me, miniature Ernesto the magic talking anglerfish.</Page>
+			<Page>Just kidding, it's me miniature Ernesto the magic talking anglerfish.</Page>
 		</Dialogue>
 		
 		<DialogueOptionsList>
@@ -29,7 +29,7 @@
 	<DialogueNode>
 		<Name>HUSBAND</Name>
 		<Dialogue>
-			<Page>Oh, Geswaldo took this geyser into space. Said something about a "hidden node." I hope he is doing alright! I love him very much.</Page>
+			<Page>Oh, Geswaldo took this geyser into space. Said something about a "hidden node." I hope he's doing alright! I love him very much.</Page>
 		</Dialogue>
 		
 		<DialogueOptionsList>
