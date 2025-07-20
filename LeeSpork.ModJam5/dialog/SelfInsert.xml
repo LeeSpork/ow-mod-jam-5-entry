@@ -55,7 +55,7 @@
 		<Name>QUEST_GET</Name>
 		
 		<Dialogue>
-			<Page>Excellent! Then it is time to start investigating the Mystery of... "I Cannot Find My Cat"!</Page> <!-- KYLE REFERENVEASDFJKL -->
+			<Page>Excellent! Then it is time to start investigating the Mystery of "I Cannot Find My Cat"!</Page> <!-- KYLE REFERENVEASDFJKL -->
 		</Dialogue>
 		
 		<RevealFacts>
@@ -193,7 +193,7 @@
 			<Page>So yeah, my catcus. Cactus? My beloved cat. I would be forever greatful if you returned it to me! It goes in this thin little vase next to me.</Page>
 			<Page>Oh, that reminds me, you'll probably need some help getting it into my vase!</Page>
 			<Page>I can give you the exact co-ordinates to it, in the cactus professional standard. I am a well practised cactus professional, after years of cactus ownership - as good as any trained one in fact!</Page>
-			<Page>Here, now if you find any cactus transporting devices, you can bring my cat right to me!</Page>
+			<Page>Here. Now, if you find any cactus transporting devices, you can bring my cat right to me!</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>LEESPORK_JAM5_CAT_VASE_COORDS</FactID>
@@ -214,7 +214,7 @@
 		<Name>TRUE_CAT_LOCATION_HINT</Name>
 		<Dialogue>
 			<Page>Hmm... So my cat is not on Log Fireplace, not swimming in Dwarf's Shallow, not inside Dim Thorn...</Page>
-			<Page>So where could it be?! It could be anywhere! It could be right under our noses!</Page>
+			<Page>So where could he be?! He could be anywhere! He could be right under our noses!</Page>
 			<Page>Have you tried looking under your bed? Underneath the <![CDATA[<color=orange>platform</color>]]>?</Page>
 			<Page>Don't forget, you are looking for a relatively small cactus that has a little flower on top.</Page>
 		</Dialogue>

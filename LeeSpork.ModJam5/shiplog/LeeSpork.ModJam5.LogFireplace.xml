@@ -24,7 +24,7 @@
 		<RumorFact>
 			<ID>LEESPORK_JAM5_VESSEL_RECORDER_RUMOUR</ID>
 			<RumorName>"Cat" owner</RumorName>
-			<Text>I have found undeniable proof that the missing "cat" I have been looking for is actually a CACTUS. I should confront Leuc about this at once.</Text>
+			<Text>I have found undeniable proof that the missing "cat" I have been looking for is actually a CACTUS. I should confront Leuc about this at once!</Text>
 			<SourceID>LEESPORK_JAM5_VESSEL_RECORDER_ROOM</SourceID>
 		</RumorFact>
 		
