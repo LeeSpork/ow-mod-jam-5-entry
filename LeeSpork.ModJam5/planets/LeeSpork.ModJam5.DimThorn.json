@@ -40,7 +40,7 @@
 	},
 	"ShipLog": {
 		"xmlFile": "shiplog/LeeSpork.ModJam5.DimThorn.xml",
-		"spriteFolder": "shiplog/sprites",
+		"spriteFolder": "shiplog/entrypics",
 		"mapMode": {
 			
 		}

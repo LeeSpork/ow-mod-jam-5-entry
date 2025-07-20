@@ -5,6 +5,6 @@
 
 	"ShipLog": {
 		"xmlFile": "shiplog/LeeSpork.ModJam5.platform.xml",
-		"spriteFolder": "shiplog/sprites"
+		"spriteFolder": "shiplog/entrypics"
 	}
 }

@@ -231,17 +231,6 @@
 				"noFadeFromBeginning": true
 			}
 		],
-		//"hazardVolumes": [
-		//	{
-		//		"rename": "Leuc_kills_you_volume",
-		//		"parentPath": "Sector/KillVolumeDummy",
-		//		"isRelativeToParent": true,
-		//		"position": {"x": 0, "y": 0, "z": 0},
-		//		"radius": 25,
-		//		"damagePerSecond": 100,
-		//		"firstContactDamage": 100
-		//	}
-		//] // Hazard volumes simply do not work apparently ?? thx New Horizons
 		"destructionVolumes": [
 			{
 				"rename": "Leuc_kills_you_volume",
@@ -256,7 +245,7 @@
 	},
 	"ShipLog": {
 		"xmlFile": "shiplog/LeeSpork.ModJam5.LogFireplace.xml",
-		"spriteFolder": "shiplog/sprites",
+		"spriteFolder": "shiplog/entrypics",
 		"mapMode": {
 			
 		}

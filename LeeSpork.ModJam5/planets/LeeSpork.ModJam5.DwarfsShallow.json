@@ -122,7 +122,7 @@
 	},
 	"ShipLog": {
 		"xmlFile": "shiplog/LeeSpork.ModJam5.DwarfsShallow.xml",
-		"spriteFolder": "shiplog/sprites",
+		"spriteFolder": "shiplog/entrypics",
 		"mapMode": {
 			
 		}

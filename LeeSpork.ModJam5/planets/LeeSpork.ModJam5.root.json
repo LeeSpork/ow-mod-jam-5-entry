@@ -43,7 +43,7 @@
 	},
 	"ShipLog": {
 		"xmlFile": "shiplog/LeeSpork.ModJam5.Remnant.xml",
-		"spriteFolder": "shiplog/sprites",
+		"spriteFolder": "shiplog/entrypics",
 		"mapMode": {
 			//"selectable": false
 		}
