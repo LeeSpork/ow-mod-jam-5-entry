@@ -124,7 +124,7 @@
 		"xmlFile": "shiplog/LeeSpork.ModJam5.DwarfsShallow.xml",
 		"spriteFolder": "shiplog/entrypics",
 		"mapMode": {
-			
+			"revealedSprite": "shiplog/DwarfsShallow.png"
 		}
 	}
 }

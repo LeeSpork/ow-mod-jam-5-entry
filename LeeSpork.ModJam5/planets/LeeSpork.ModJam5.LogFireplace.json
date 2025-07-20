@@ -247,7 +247,7 @@
 		"xmlFile": "shiplog/LeeSpork.ModJam5.LogFireplace.xml",
 		"spriteFolder": "shiplog/entrypics",
 		"mapMode": {
-			
+			"revealedSprite": "shiplog/LogFireplace.png"
 		}
 	}
 }
