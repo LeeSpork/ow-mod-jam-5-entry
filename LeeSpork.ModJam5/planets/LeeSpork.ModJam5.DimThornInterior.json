@@ -50,6 +50,29 @@
 				"removeComponents": false,
 				"position": {"x": 33.51954, "y": 2.063962, "z": -3.730973},
 				"rotation": {"x": 13.46771, "y": 350.3773, "z": 2.560348}
+			},
+			
+			// Decorative skeletons
+			
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"rotation": {"x": 13.5644884, "y": 331.154633, "z": 358.0275},
+				"position": {"x": 37.2582, "y": 3.37776375, "z": -8.623803}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"rotation": {"x": 12.54888, "y": 315.402557, "z": 354.447235},
+				"position": {"x": 42.7689667, "y": 2.94786286, "z": -4.70745659}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"rotation": {"x": 348.3139, "y": 191.4934, "z": 352.790863},
+				"position": {"x": 37.92775, "y": 1.57939816, "z": -0.5007584}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"rotation": {"x": 345.091736, "y": 157.323349, "z": 359.014618},
+				"position": {"x": 41.48886, "y": 1.71250629, "z": -8.13412}
 			}
 		],
 		"dialogue": [
