@@ -1,2 +1,4 @@
-# ow-mod-jam-5-entry
-LeeSpork's entry for the fifth Outer Wilds Mod Jam.
+# The Mystery of I Cannot Find My Cat
+Can you help Leuc find their missing cat?
+
+Made in under two weeks for the fifth Outer Wilds Mod Jam.
