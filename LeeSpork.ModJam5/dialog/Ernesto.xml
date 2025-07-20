@@ -1,0 +1,76 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Ernesto</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		
+		<Dialogue>
+			<Page>Meow, I am the cat.</Page>
+			<Page>Just kidding, it's me, miniature Ernesto the magic talking anglerfish.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Wow you can miniature?</Text>
+				<DialogueTarget>MINI</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>So, how's the husband?</Text>
+				<DialogueTarget>HUSBAND</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I will see you later.</Text>
+				<DialogueTarget>BYE</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>HUSBAND</Name>
+		<Dialogue>
+			<Page>Oh, Geswaldo took this geyser into space. Said something about a "hidden node." I hope he is doing alright! I love him very much.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I'm worried Geswaldo might be encased in ice.</Text>
+				<DialogueTarget>ICE</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You love is beautiful. I hope he returns to you safely.</Text>
+				<DialogueTarget>THXBYE</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>MINI</Name>
+		<Dialogue>
+			<Page>No I can't. You must be mistaken. Haha that's a joke. I took an online course on miniaturization.</Page>
+			<Page>That brings us to our sponsor. Use discount code "Hey it's me Ernesto the magic talking anglerfish" to get 50% off on your first month.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ICE</Name>
+		<Dialogue>
+			<Page>Glad to hear Geswaldo is chilling out. Don't worry about him, I'm sure the upcoming supernova will safely melt the ice and allow him to escape.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>THXBYE</Name>
+		<Dialogue>
+			<Page>Thank you.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>BYE</Name>
+		<Dialogue>
+			<Page>Bye bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
