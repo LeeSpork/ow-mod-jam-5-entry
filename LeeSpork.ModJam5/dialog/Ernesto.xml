@@ -29,13 +29,14 @@
 	<DialogueNode>
 		<Name>HUSBAND</Name>
 		<Dialogue>
-			<Page>Oh, Geswaldo took this geyser into space. Said something about a "hidden node." I hope he's doing alright! I love him very much.</Page>
+			<Page>Oh, Geswaldo took this geyser into space. I hope he's doing alright! I love him very much.</Page>
 		</Dialogue>
 		
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>I'm worried Geswaldo might be encased in ice.</Text>
+				<Text>I'm worried Geswaldo might be encased in ice on the surface of the Hidden Node.</Text>
 				<DialogueTarget>ICE</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_HIDDEN_NODE_DISCOVERED</RequiredLogCondition>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>You love is beautiful. I hope he returns to you safely.</Text>
