@@ -2,7 +2,7 @@
 	"name": "LeeSpork.ModJam5.hiddenNode",
 	"starSystem": "Jam5",
 	"Orbit": {
-		"primaryBody": "LeeSpork.ModJam5.root",
+		"primaryBody": "Leuc's Sun",
 		"staticPosition": {"x": 1000, "y": 1000, "z": 1000}
 	},
 	"Base" : {

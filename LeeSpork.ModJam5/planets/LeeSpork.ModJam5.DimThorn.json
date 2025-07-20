@@ -1,8 +1,8 @@
 {
-	"name": "LeeSpork.ModJam5.DimThorn",
+	"name": "Dim Thorn",
 	"starSystem": "Jam5",
 	"Orbit": {
-		"primaryBody": "LeeSpork.ModJam5.root",
+		"primaryBody": "Leuc's Sun",
 		"semiMajorAxis": 2400
 	},
 	"Base" : {

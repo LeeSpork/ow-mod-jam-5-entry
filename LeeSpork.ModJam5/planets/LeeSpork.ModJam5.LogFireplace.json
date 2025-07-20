@@ -1,8 +1,8 @@
 {
-	"name": "LeeSpork.ModJam5.LogFireplace",
+	"name": "Log Fireplace",
 	"starSystem": "Jam5",
 	"Orbit": {
-		"primaryBody": "LeeSpork.ModJam5.root",
+		"primaryBody": "Leuc's Sun",
 		"semiMajorAxis": 1000
 	},
 	"Base" : {

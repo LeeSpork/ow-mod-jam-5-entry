@@ -1,8 +1,8 @@
 {
-	"name": "LeeSpork.ModJam5.DwarfsShallow",
+	"name": "Dwarf's Shallow",
 	"starSystem": "Jam5",
 	"Orbit": {
-		"primaryBody": "LeeSpork.ModJam5.root",
+		"primaryBody": "Leuc's Sun",
 		"semiMajorAxis": 1900
 	},
 	"Base" : {

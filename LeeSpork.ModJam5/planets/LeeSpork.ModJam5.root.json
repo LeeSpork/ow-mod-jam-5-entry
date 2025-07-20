@@ -1,6 +1,6 @@
 ﻿{
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "LeeSpork.ModJam5.root",
+	"name": "Leuc's Sun",
 	"starSystem": "Jam5",
 	"removeChildren": [ "Sector/Star/Audio_Star/SurfaceAudio_Sun" ],
 	"Base": {
