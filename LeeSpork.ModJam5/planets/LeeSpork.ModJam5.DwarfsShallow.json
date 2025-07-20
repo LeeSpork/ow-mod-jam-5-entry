@@ -35,9 +35,10 @@
 				"position": {"x": 0, "y": 0, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 0},
 				"removeChildren": [
-					"Interactibles_EscapePod/Prefab_NOM_Vessel_Computer"
-				]
-				//"keepLoaded": false // Should not be visible from space // parts of it are still visible from space
+					"Interactibles_EscapePod/Prefab_NOM_Vessel_Computer",
+					"Proxy_EscapePod"
+				],
+				"keepLoaded": false
 			},
 			{
 				"rename": "Item_CactusTeleporter",
