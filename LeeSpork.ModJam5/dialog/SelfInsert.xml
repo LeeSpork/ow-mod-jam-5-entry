@@ -305,17 +305,17 @@
 			<Page>Special thanks to all the contributors of New Horizons and its online documentation, for making this mod possible despite me not bothering to learn how to code or create assets for Outer Wilds.</Page>
 			<Page>Special thanks to the developers of Outer Wilds, for obvious reasons.</Page>
 			<Page>Special thanks to the judges of the 5th Outer Wilds Mod Jam, who are presumably going to be judging this despite the fact that is clearly not going to win...</Page>
-			<Page>and are therefore going to be giving me $0 in prize money, which means I win because the theme was miniature and you can't get much smaller than nothing!</Page>
-			<Page>Special thanks to Notepad++, even though I really should have been using something that actually checks the schemas and alerts me if my code is invalid</Page>
+			<Page>And are therefore about to give me $0 in prize money, which means I win because the theme was miniature and you can't get much smaller than nothing!</Page>
+			<Page>Special thanks to Notepad++, even though I really should have been using something that actually checks the schemas to alert me if my code is invalid...</Page>
 			<Page>Special thanks to Paint.NET, and BoltBait's Black and White+ v6.0 plugin.</Page>
-			<Page>Special thanks to Firefox, in which I currently have seven thousand, five hundred and seventy-four tabs open across twenty-three windows.</Page>
+			<Page>Special thanks to the Firefox web browser, in which I currently have seven thousand five hundred and seventy-four tabs open across twenty-three windows.</Page>
 			<Page>And a very special thanks to the members of the Outer Wilds Modding Discord server!</Page>
-			<Page>Also, more than a special thanks to the organisers and judges of the fifth Outer Wilds mod jam! (Yes I just thanked Xen again)</Page>
+			<Page>Also, more than a special thanks to the organisers and judges of the fifth Outer Wilds mod jam! (Yes I just thanked Xen again.)</Page>
 		</Dialogue>
 		
 		<SetCondition>LEESPORK_JAM5_SPECIAL_THANKED</SetCondition>
 		
-		<DialogueTarget>MOD_PROBLEMS_RANT</DialogueTarget>
+		<DialogueTarget>JAM_EXTENTION</DialogueTarget>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -360,7 +360,7 @@
 				<DialogueTarget>TRAP</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Go on, I wish to hear about everything in excruciating detail.</Text>
+				<Text>Please go on, I wish to hear about everything in excruciating detail.</Text>
 				<DialogueTarget>ABOUT_MOD_CONT</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -385,6 +385,14 @@
 			<Page>There is a part in the Complete Edition where the narrator says "It was time to investigate the mystery of... I cannot find my cat."</Page>
 			<Page>I thought this quote was funny, hence the entire story of this mod.</Page>
 			<Page>Leuc was originally named "Self-Insert", which is why they use the "self" NPC model. However, I realised that the plot only works if the cat owner is dysfunctional in a way that I am not, so I changed them to be a ficitional character to avoid any implications.</Page>
+			<Page>As for the planets, you may have noticed that they are parodies of the planets from the base game. When I was brainstorming mini solar system ideas for this mod jam, it was the most obvious option to just remake the Outer Wilds, but smaller.</Page>
+			<Page>Of course, you may have noticed several key locations are missing, most notable Brittle Hollow and the Hourglass Twins.</Page>
+			<Page>I considered parodying the Hourglass Twins by having a warp core orbiting the sun, since it kind of looks like an hourglass, and certainly fits the "miniature" bill!</Page>
+			<Page>Though I decided against it in the end, since I didn't want to mislead players who might assume it would be a key item.</Page>
+			<Page>For the Brittle Hollow analog, I was going to add a black hole orbiting between Log Fireplace and Dwarf's Shallow. Leuc would call the player's attention to it, saying something about how there used to be a planet there, but now it's just a hole.</Page>
+			<Page>Falling into the black hole would of course then take you to the White Hole Train Station, above the plane of the solar system.</Page>
+			<Page>But I couldn't figure out how to fit it into the story, and of course I would be very limited on time to somehow model a train station anyway, so it didn't make it into the final mod.</Page>
+			<Page>Speaking of not making it into the final mod, I couldn't figure out how to work with the Probe Control Module asset. The only other stand-alone Nomai building asset with collision that I could find was the tower on the quantum moon, however, the top and bottom of that model is not closed. In the end, the Nomai escape pod was way easier to work with, so that is what I went with for the structure in the core of Dwarf's Shallow.</Page>
 		</Dialogue>
 		<DialogueTarget>OTHER_CREDITS</DialogueTarget>
 	</DialogueNode>
@@ -397,29 +405,29 @@
 			<Page>One really silly issue I discovered was that the size of the supernova blast is inversely proportional to the supernova speed, even ignoring the configured supernova size value.</Page>
 			<Page>I tried setting the speed really low so that you could escape it, but this resulted in it eating the entire rest of Jam 5!</Page>
 			
-			<Page>One issue I had was due to how I used the vessel geometry copied directly from the base game's Dark Bramble. The collision of the entire bramble dimension it is inside baked into its collisions, and they do not line up with the bramble dimension added by New Horizons!</Page>
+			<Page>One issue I had was due to how I used the vessel geometry copied directly from the base game's Dark Bramble. The collision of the entire bramble dimension it is inside was baked into its collisions, and it does not line up with bramble dimensions created with New Horizons!</Page>
 			<Page>I solved this by simply making the bramble dimension way smaller, which is why the vessel is proportinally closer to the entrance than it is in the base game.</Page>
-			<Page>Another issue I had in the vessel was the Hearthian recorder's dialogue not working. Turns out it doesn't work if the dialogue is placed with its centre point exactly in the ground!</Page>
+			<Page>Another issue I had in the vessel was the Hearthian recorder's dialogue not working. Turns out, it doesn't work if the dialogue is placed with its centre point exactly in the ground!</Page>
 			
 			<Page>Another silly thing was that this planet, Log Fireplace, is so small that when I first added the geyser to it, the very bottom of it went right through the planet and appeared upside-down inside the warp pad!</Page>
-			<Page>It was even strong enough that it could prevent the player from entering the warp pad's black hole! Too bad if you wanted to return to Central Station and got the cycle on the geyser wrong!</Page>
-			<Page>Luckily, fixing it was as simple as increasing its offset.</Page>
+			<Page>It was strong enough that it could even prevent the player from entering the warp pad's black hole! Wanted to return to Central Station and got the cycle on the geyser wrong? Too bad lol!</Page>
+			<Page>Luckily, fixing this was as simple as increasing the offset of the geyser.</Page>
 			
-			<Page>Another thing that I discovered the hard way was that getting hit by the supernova while sleeping causes you to never wake up.</Page>
-			<Page>Well I suppose you already know that, because I wrote a note next to the campfire to warn you of it...</Page>
-			<Page>I slept right through the end of the loop! You go past 22 minutes, and just keep going! I had to Alt+F4 the game to escape!</Page>
+			<Page>Another thing that I discovered the hard way was that getting hit by the supernova while sleeping can cause you to never wake up.</Page>
+			<Page>Well, I suppose you already know that, because I wrote a note next to the campfire to warn you of it...</Page>
+			<Page>I slept right through the end of the loop! It goes past 22 minutes, and then it just keep going! I had to Alt+F4 the game to escape!</Page>
 			<Page>I'm not actually sure if that still happens. Maybe it had to do with the supernova size bug I mentioned before? But like, better safe than sorry.</Page>
 			
 			<Page>I have some complaints about New Horizons.</Page>
 			
-			<Page>For a stellar remnant, it turns out you have to explicitly remove the ship log for it, else the ship log computer bugs out and softlocks the game. I guess because it's the same planet ID as the star?</Page>
+			<Page>For a stellar remnant, it turns out you have to explicitly remove the ship log for it, else the ship log computer bugs out and softlocks the game if the player tries to use it. I guess because it's the same planet ID as the star?</Page>
 			<Page>It is not documentated that you have to do this. And why can't it just do that automatically?</Page>
 			
 			<Page>On detail props, I found no way of removing specific components. You either remove all components, or none of them.</Page>
 			<Page>I had to remove the components of this very NPC, in case you are wondering, because otherwise there would be a "YOU ARE HERE" marker the map here.</Page>
 			
-			<Page>Another thing, the docs do not specify that the "value" of "curve" based on the "size" value. I assumed it would be setting the size to the value, but actually, it is a multiplier of its size.</Page>
-			<Page>But wait, that's not true either! It is also DOUBLED! And this isn't documnted at all, you just have to figure it out!!</Page>
+			<Page>Another thing, the docs do not specify that the value of "curve" is influenced by the size value. I assumed it would be setting the size to the value, but actually, it is a multiplier of its size.</Page>
+			<Page>But wait, that's not true either! It is also DOUBLED! And this isn't documented at all, you just have to figure it out!!</Page>
 			
 			<Page>Also you cannot set more than one condition at once in a dialogue option, which was a little inconvenient.</Page>
 			
@@ -429,6 +437,7 @@
 			
 			<Page>So I might have to be submitting some issues to the New Horizons GitHub after this...</Page>
 		</Dialogue>
+		
 		<DialogueTarget>SO_UHH</DialogueTarget>
 	</DialogueNode>
 
@@ -450,6 +459,20 @@
 		</Dialogue>
 	</DialogueNode>
 
+	<DialogueNode>
+		<Name>JAM_EXTENTION</Name>
+		<Dialogue>
+			<Page>With that done... Did you know that this mod jam had a two-day extention?</Page>
+			<Page>Even though I planned around not having an extention and made sure my mod was ready by the original deadline, I'm glad there was one!</Page>
+			<Page>One person on Discord was complaining about how barren a few of the platforms in the Central Station were, so I made use of the extention to add potted trees to mine.</Page>
+			<Page>Of course I already had those two benches - one with a spork representing me, and an empty one just for you, dear player! But on their own, they still didn't really help you tell apart my platform at a glance, being such small details.</Page>
+			<Page>I also used the extention to add this whole line of dialogue! If there wasn't an extention, Leuc would have nothing more to say after you got congratulated for completing the mod.</Page>
+			<Page>Yeah that's right, if the other modders were more diligent and had finished their jam entries on time, you wouldn't have to be listening through any of this rambling!</Page>
+			<Page>No offense meant to them though, the extention was well-deserved!</Page>
+		</Dialogue>
+		
+		<DialogueTarget>MOD_PROBLEMS_RANT</DialogueTarget>
+	</DialogueNode>
 
 
 </DialogueTree> <!-- This is the end of the file -->
