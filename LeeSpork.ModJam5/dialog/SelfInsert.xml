@@ -306,12 +306,11 @@
 			<Page>Special thanks to the developers of Outer Wilds, for obvious reasons.</Page>
 			<Page>Special thanks to the judges of the 5th Outer Wilds Mod Jam, who are presumably going to be judging this despite the fact that is clearly not going to win...</Page>
 			<Page>and are therefore going to be giving me $0 in prize money, which means I win because the theme was miniature and you can't get much smaller than nothing!</Page>
-			<Page>Special thanks to Notepad++, even though I really should have been using something that actually checks if my code was valid</Page>
+			<Page>Special thanks to Notepad++, even though I really should have been using something that actually checks the schemas and alerts me if my code is invalid</Page>
 			<Page>Special thanks to Paint.NET, and BoltBait's Black and White+ v6.0 plugin.</Page>
 			<Page>Special thanks to Firefox, in which I currently have seven thousand, five hundred and seventy-four tabs open across twenty-three windows.</Page>
-			<Page>Special thanks to Xen again, for fixing the issue where Ping wouldn't help me meditate.</Page>
 			<Page>And a very special thanks to the members of the Outer Wilds Modding Discord server!</Page>
-			<Page>Also, more than a special thanks to the organisers and judges of the fifth Outer Wilds mod jam! (I just had to thank Xen a fifth time)</Page>
+			<Page>Also, more than a special thanks to the organisers and judges of the fifth Outer Wilds mod jam! (Yes I just thanked Xen again)</Page>
 		</Dialogue>
 		
 		<SetCondition>LEESPORK_JAM5_SPECIAL_THANKED</SetCondition>
