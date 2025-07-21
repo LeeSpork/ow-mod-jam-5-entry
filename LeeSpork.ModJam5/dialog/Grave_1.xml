@@ -30,6 +30,8 @@
 			<FactID>LEESPORK_JAM5_GRAVE_FOUND</FactID>
 		</RevealFacts>
 		
+		<SetCondition>LEESPORK_JAM5_POST_WIN_GRAVE_READ</SetCondition>
+		
 	</DialogueNode>
 
 

@@ -1,0 +1,22 @@
+{
+	"credits": [
+		"Mod created by LeeSpork"
+	],
+	"achievements": [
+		{
+			"ID": "LEESPORK_JAM5_BAD_ENDING",
+			"secret" : false,
+			"conditionIDs": ["LEESPORK_JAM5_LEUC_KILLS_YOU"]
+		},
+		{
+			"ID": "LEESPORK_JAM5_ERNESTO",
+			"secret" : false,
+			"conditionIDs": ["LEESPORK_JAM5_GESWALDO_REPORTED"]
+		},
+		{
+			"ID": "LEESPORK_JAM5_GOOD_GRAVE",
+			"secret" : false,
+			"conditionIDs": ["LEESPORK_JAM5_POST_WIN_GRAVE_READ"]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"AchievementTranslations": {
+		"LEESPORK_JAM5_BAD_ENDING": {
+			"Name": "Bad Ending",
+			"Description": "Fail so hard at finding Leuc's cat that they kill you"
+		},
+		"LEESPORK_JAM5_ERNESTO": {
+			"Name": "Easter Egg",
+			"Description": "Find Geswaldo and tell Ernesto about him."
+		},
+		"LEESPORK_JAM5_GOOD_GRAVE": {
+			"Name": "In Peace",
+			"Description": "Read the grave after returning the cat and talking to Leuc."
+		}
+	}
+}

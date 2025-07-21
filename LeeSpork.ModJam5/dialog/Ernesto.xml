@@ -58,6 +58,7 @@
 		<Dialogue>
 			<Page>Glad to hear Geswaldo is chilling out. Don't worry about him, I'm sure the upcoming supernova will safely melt the ice and allow him to escape.</Page>
 		</Dialogue>
+		<SetCondition>LEESPORK_JAM5_GESWALDO_REPORTED</SetCondition>
 	</DialogueNode>
 
 	<DialogueNode>
