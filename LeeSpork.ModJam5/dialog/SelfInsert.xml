@@ -259,17 +259,26 @@
 		
 		<SetCondition>LEESPORK_JAM5_DIE_HAPPY</SetCondition>
 		
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>POST_WIN</Name>
+		<EntryCondition>LEESPORK_JAM5_DIE_HAPPY</EntryCondition>
+		
+		<Dialogue>
+			<Page>Thank you again! I will never forget you for as long as I live!</Page>
+		</Dialogue>
+		
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Tell me about the mod.</Text>
+				<Text>Tell me about the mod</Text>
 				<DialogueTarget>ABOUT_MOD</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Goodbye</Text>
+				<Text>Goodbye Leuc</Text>
 				<DialogueTarget>GOODBYE_FINAL</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
-		
 	</DialogueNode>
 
 	<DialogueNode>
