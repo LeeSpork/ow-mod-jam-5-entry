@@ -53,7 +53,7 @@
 		<Name>DO_NOT_CARE</Name>
 		<Dialogue>
 			<Page>What? Then why did you install this mod...?</Page>
-			<Page>Well, fine. I'm sure the other Jam 5 entires ought to be better than this one, anyway. I'll be here if you change your mind.</Page>
+			<Page>Well, fine. I'm sure the other Jam 5 entries ought to be better than this one, anyway. I'll be here if you change your mind.</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -89,7 +89,7 @@
 			</DialogueOption>
 		
 			<DialogueOption>
-				<Text>I found a recording you left on the vessel in Dim Thorn. Your "cat" has been a catus this entire time?!</Text>
+				<Text>I found a recording you left on the vessel in Dim Thorn. Your "cat" has been a cactus this entire time?!</Text>
 				<DialogueTarget>ITS_A_CACTUS</DialogueTarget>
 				<RequiredLogCondition>LEESPORK_JAM5_VESSEL_RECORDER_RUMOUR</RequiredLogCondition>
 			</DialogueOption>
@@ -202,7 +202,7 @@
 	<DialogueNode>
 		<Name>ITS_A_CACTUS_3</Name>
 		<Dialogue>
-			<Page>So yeah, my catcus. Cactus? My beloved cat. I would be forever greatful if you returned it to me! It goes in this thin little vase next to me.</Page>
+			<Page>So yeah, my catcus. Cactus? My beloved cat. I would be forever grateful if you returned it to me! It goes in this thin little vase next to me.</Page>
 			<Page>Oh, that reminds me, you'll probably need some help getting it into my vase!</Page>
 			<Page>I can give you the exact co-ordinates to it, in the cactus professional standard. I am a well practised cactus professional, after years of cactus ownership - as good as any trained one in fact!</Page>
 			<Page>Here. Now, if you find any cactus transporting devices, you can bring my cat right to me!</Page>
@@ -384,7 +384,7 @@
 			<Page>This whole plot was actually based on a quote from the 2019 text-based adventure game "Kyle is Famous", which is on Steam.</Page>
 			<Page>There is a part in the Complete Edition where the narrator says "It was time to investigate the mystery of... I cannot find my cat."</Page>
 			<Page>I thought this quote was funny, hence the entire story of this mod.</Page>
-			<Page>Leuc was originally named "Self-Insert", which is why they use the "self" NPC model. However, I realised that the plot only works if the cat owner is dysfunctional in a way that I am not, so I changed them to be a ficitional character to avoid any implications.</Page>
+			<Page>Leuc was originally named "Self-Insert", which is why they use the "self" NPC model. However, I realised that the plot only works if the cat owner is dysfunctional in a way that I am not, so I changed them to be a fictional character to avoid any implications.</Page>
 			<Page>As for the planets, you may have noticed that they are parodies of the planets from the base game. When I was brainstorming mini solar system ideas for this mod jam, it was the most obvious option to just remake the Outer Wilds, but smaller.</Page>
 			<Page>Of course, you may have noticed several key locations are missing, most notable Brittle Hollow and the Hourglass Twins.</Page>
 			<Page>I considered parodying the Hourglass Twins by having a warp core orbiting the sun, since it kind of looks like an hourglass, and certainly fits the "miniature" bill!</Page>
@@ -406,7 +406,7 @@
 			<Page>I tried setting the speed really low so that you could escape it, but this resulted in it eating the entire rest of Jam 5!</Page>
 			
 			<Page>One issue I had was due to how I used the vessel geometry copied directly from the base game's Dark Bramble. The collision of the entire bramble dimension it is inside was baked into its collisions, and it does not line up with bramble dimensions created with New Horizons!</Page>
-			<Page>I solved this by simply making the bramble dimension way smaller, which is why the vessel is proportinally closer to the entrance than it is in the base game.</Page>
+			<Page>I solved this by simply making the bramble dimension way smaller, which is why the vessel is proportionally closer to the entrance than it is in the base game.</Page>
 			<Page>Another issue I had in the vessel was the Hearthian recorder's dialogue not working. Turns out, it doesn't work if the dialogue is placed with its centre point exactly in the ground!</Page>
 			
 			<Page>Another silly thing was that this planet, Log Fireplace, is so small that when I first added the geyser to it, the very bottom of it went right through the planet and appeared upside-down inside the warp pad!</Page>
@@ -415,13 +415,13 @@
 			
 			<Page>Another thing that I discovered the hard way was that getting hit by the supernova while sleeping can cause you to never wake up.</Page>
 			<Page>Well, I suppose you already know that, because I wrote a note next to the campfire to warn you of it...</Page>
-			<Page>I slept right through the end of the loop! It goes past 22 minutes, and then it just keep going! I had to Alt+F4 the game to escape!</Page>
+			<Page>I slept right through the end of the loop! It goes past 22 minutes, and then it just keeps going! I had to Alt+F4 the game to escape!</Page>
 			<Page>I'm not actually sure if that still happens. Maybe it had to do with the supernova size bug I mentioned before? But like, better safe than sorry.</Page>
 			
 			<Page>I have some complaints about New Horizons.</Page>
 			
 			<Page>For a stellar remnant, it turns out you have to explicitly remove the ship log for it, else the ship log computer bugs out and softlocks the game if the player tries to use it. I guess because it's the same planet ID as the star?</Page>
-			<Page>It is not documentated that you have to do this. And why can't it just do that automatically?</Page>
+			<Page>It is not documented that you have to do this. And why can't it just do that automatically?</Page>
 			
 			<Page>On detail props, I found no way of removing specific components. You either remove all components, or none of them.</Page>
 			<Page>I had to remove the components of this very NPC, in case you are wondering, because otherwise there would be a "YOU ARE HERE" marker the map here.</Page>
@@ -462,11 +462,11 @@
 	<DialogueNode>
 		<Name>JAM_EXTENTION</Name>
 		<Dialogue>
-			<Page>With that done... Did you know that this mod jam had a two-day extention?</Page>
-			<Page>Even though I planned around not having an extention and made sure my mod was ready by the original deadline, I'm glad there was one!</Page>
-			<Page>One person on Discord was complaining about how barren a few of the platforms in the Central Station were, so I made use of the extention to add potted trees to mine.</Page>
+			<Page>With that done... Did you know that this mod jam had a two-day extension?</Page>
+			<Page>Even though I planned around not having an extension and made sure my mod was ready by the original deadline, I'm glad there was one!</Page>
+			<Page>One person on Discord was complaining about how barren a few of the platforms in the Central Station were, so I made use of the extension to add potted trees to mine.</Page>
 			<Page>Of course I already had those two benches - one with a spork representing me, and an empty one just for you, dear player! But on their own, they still didn't really help you tell apart my platform at a glance, being such small details.</Page>
-			<Page>I also used the extention to add this whole line of dialogue! If there wasn't an extention, Leuc would have nothing more to say after you got congratulated for completing the mod.</Page>
+			<Page>I also used the extension to add this whole line of dialogue! If there wasn't an extension, Leuc would have nothing more to say after you got congratulated for completing the mod.</Page>
 			<Page>Yeah that's right, if the other modders were more diligent and had finished their jam entries on time, you wouldn't have to be listening through any of this rambling!</Page>
 			<Page>No offense meant to them though, the extension was well-deserved! Besides, this whole dialogue trap thing was also something that I intended to add from the start but didn't have time to prioritise until the extension was announced.</Page>
 		</Dialogue>

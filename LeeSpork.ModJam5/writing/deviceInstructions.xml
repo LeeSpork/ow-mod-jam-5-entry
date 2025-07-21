@@ -3,7 +3,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			Our latest invention: the Handheld Cactus Teleporation Device.
+			Our latest invention: the Handheld Cactus Teleportation Device.
 		</Text>
 	</TextBlock>
 
@@ -35,7 +35,7 @@
 		<ID>5</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			Disclaimer: Cactus Teleporation Device may not work on cacti originating from outside our star system.
+			Disclaimer: Cactus Teleportation Device may not work on cacti originating from outside our star system.
 		</Text>
 	</TextBlock>
 
