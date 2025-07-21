@@ -427,7 +427,7 @@
 			<Page>I had to remove the components of this very NPC, in case you are wondering, because otherwise there would be a "YOU ARE HERE" marker the map here.</Page>
 			
 			<Page>Another thing, the docs do not specify that the value of "curve" is influenced by the size value. I assumed it would be setting the size to the value, but actually, it is a multiplier of its size.</Page>
-			<Page>But wait, that's not true either! It is also DOUBLED! And this isn't documented at all, you just have to figure it out!!</Page>
+			<Page>But wait, that's not true either! It is also, at least in the case of sand, doubled?! And this isn't documented at all, you just have to figure it out..</Page>
 			
 			<Page>Also you cannot set more than one condition at once in a dialogue option, which was a little inconvenient.</Page>
 			
