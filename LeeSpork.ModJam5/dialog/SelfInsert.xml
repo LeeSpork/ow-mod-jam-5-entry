@@ -400,7 +400,11 @@
 			<Page>One issue I had was due to how I used the vessel geometry copied directly from the base game's Dark Bramble. The collision of the entire bramble dimension it is inside baked into its collisions, and they do not line up with the bramble dimension added by New Horizons!</Page>
 			<Page>I solved this by simply making the bramble dimension way smaller, which is why the vessel is proportinally closer to the entrance than it is in the base game.</Page>
 			<Page>Another issue I had in the vessel was the Hearthian recorder's dialogue not working. Turns out it doesn't work if the dialogue is placed with its centre point exactly in the ground!</Page>
-
+			
+			<Page>Another silly thing was that this planet, Log Fireplace, is so small that when I first added the geyser to it, the very bottom of it went right through the planet and appeared upside-down inside the warp pad!</Page>
+			<Page>It was even strong enough that it could prevent the player from entering the warp pad's black hole! Too bad if you wanted to return to Central Station and got the cycle on the geyser wrong!</Page>
+			<Page>Luckily, fixing it was as simple as increasing its offset.</Page>
+			
 			<Page>Another thing that I discovered the hard way was that getting hit by the supernova while sleeping causes you to never wake up.</Page>
 			<Page>Well I suppose you already know that, because I wrote a note next to the campfire to warn you of it...</Page>
 			<Page>I slept right through the end of the loop! You go past 22 minutes, and just keep going! I had to Alt+F4 the game to escape!</Page>
