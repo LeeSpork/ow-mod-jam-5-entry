@@ -5,18 +5,23 @@
 	"achievements": [
 		{
 			"ID": "LEESPORK_JAM5_BAD_ENDING",
-			"secret" : false,
-			"conditionIDs": ["LEESPORK_JAM5_LEUC_KILLS_YOU"]
+			"conditionIDs": ["LEESPORK_JAM5_LEUC_KILLS_YOU"],
+			"secret" : false
 		},
 		{
 			"ID": "LEESPORK_JAM5_ERNESTO",
-			"secret" : false,
-			"conditionIDs": ["LEESPORK_JAM5_GESWALDO_REPORTED"]
+			"conditionIDs": ["LEESPORK_JAM5_GESWALDO_REPORTED"],
+			"secret" : false
 		},
 		{
 			"ID": "LEESPORK_JAM5_GOOD_GRAVE",
+			"conditionIDs": ["LEESPORK_JAM5_POST_WIN_GRAVE_READ"],
+			"secret" : false
+		},
+		{
+			"ID": "LEESPORK_JAM5_SPECIAL_THANKS",
+			"conditionIDs": ["LEESPORK_JAM5_SPECIAL_THANKED"],
 			"secret" : false,
-			"conditionIDs": ["LEESPORK_JAM5_POST_WIN_GRAVE_READ"]
 		}
 	]
 }

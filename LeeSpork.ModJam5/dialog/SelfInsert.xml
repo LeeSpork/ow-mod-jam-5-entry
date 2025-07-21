@@ -314,6 +314,8 @@
 			<Page>Also, more than a special thanks to the organisers and judges of the fifth Outer Wilds mod jam! (I just had to thank Xen a fifth time)</Page>
 		</Dialogue>
 		
+		<SetCondition>LEESPORK_JAM5_SPECIAL_THANKED</SetCondition>
+		
 		<DialogueTarget>MOD_PROBLEMS_RANT</DialogueTarget>
 	</DialogueNode>
 

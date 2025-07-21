@@ -11,6 +11,10 @@
 		"LEESPORK_JAM5_GOOD_GRAVE": {
 			"Name": "In Peace",
 			"Description": "Read the grave after returning the cat and talking to Leuc."
+		},
+		"LEESPORK_JAM5_SPECIAL_THANKS": {
+			"Name": "Special Thanks",
+			"Description": "Make it through the special thanks credits which are unlocked after completing the mod once."
 		}
 	}
 }
