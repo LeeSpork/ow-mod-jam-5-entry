@@ -7,4 +7,5 @@ A story mod for Outer Wilds made in under two weeks for the 5th Outer Wilds Mod 
 - 2 to 8 planets (depending on what you count as a planet),
 - Over 150 lines of dialogue, Nomai writing, and ship log facts,
 - a good ending and a secret bad ending,
+- 4 achievements if you have [Achievements+](https://outerwildsmods.com/mods/achievements/) installed (optional),
 - and 1 Ernesto!
