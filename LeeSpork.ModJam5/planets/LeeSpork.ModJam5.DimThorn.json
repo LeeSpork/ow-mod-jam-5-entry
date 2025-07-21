@@ -3,7 +3,10 @@
 	"starSystem": "Jam5",
 	"Orbit": {
 		"primaryBody": "Leuc's Sun",
-		"semiMajorAxis": 2400
+		"semiMajorAxis": 2200,
+		"eccentricity": 0.1,
+		"argumentOfPeriapsis": 180,
+		"trueAnomaly": 180 //Weird thing to call start angle but ok
 	},
 	"Base" : {
 		"surfaceGravity": 0.3,
@@ -25,15 +28,6 @@
 				"position": {"x": 0, "y": 0, "z": 0}, "isRelativeToParent": true
 			}
 		]
-	},
-	"Sand": {
-		"curve": [
-			{"time": 0.0, "value": 0},
-			{"time": 3.5, "value": 0},
-			{"time": 3.9, "value": 0.5},
-			{"time": 22.0, "value": 0.5} // Value here is DOUBLED MULTIPLIER of size bellow. This isn't documented. WHY ????
-		],
-		"size": 6.5
 	},
 	"MapMarker": {
 		"enabled": true
