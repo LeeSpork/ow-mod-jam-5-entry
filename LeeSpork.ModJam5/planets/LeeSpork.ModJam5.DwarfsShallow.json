@@ -3,7 +3,9 @@
 	"starSystem": "Jam5",
 	"Orbit": {
 		"primaryBody": "Leuc's Sun",
-		"semiMajorAxis": 1900
+		"semiMajorAxis": 1750,
+		"siderealPeriod": -11.75, // Increase to speed up sun. Decrease to slow down sun.
+		"initialRotation": 25
 	},
 	"Base" : {
 		"surfaceGravity": 24,
