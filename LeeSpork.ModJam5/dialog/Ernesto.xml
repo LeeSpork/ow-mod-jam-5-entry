@@ -34,9 +34,9 @@
 		
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>I'm worried Geswaldo might be encased in ice on the surface of the Hidden Node.</Text>
+				<Text>I'm worried Geswaldo might be encased in ice on the surface of the hidden node.</Text>
 				<DialogueTarget>ICE</DialogueTarget>
-				<RequiredLogCondition>LEESPORK_JAM5_HIDDEN_NODE_DISCOVERED</RequiredLogCondition>
+				<RequiredPersistentCondition>LEESPORK_JAM5_GESWALDO_LOCATED</RequiredPersistentCondition>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>You love is beautiful. I hope he returns to you safely.</Text>

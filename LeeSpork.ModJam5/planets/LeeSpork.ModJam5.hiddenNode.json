@@ -20,7 +20,7 @@
 		]
 	},
 	"Cloak": {
-		"radius": 300 //482
+		"radius": 300
 	},
 	"Props": {
 		"entryLocation": [
@@ -38,6 +38,25 @@
 				"position": {"x": 1.5757, "y": -30.8235, "z": -5.7731},
 				"rotation": {"x": 43.5015, "y": 13.4964, "z": 132.7166},
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/DB_JellyfishinIce/Jelly_Rock_Geo"
+			}
+		]
+	},
+	"Volumes": {
+		"conditionTriggerVolumes": [
+			{
+				"condition": "LEESPORK_JAM5_GESWALDO_LOCATED",
+				"persistent": true,
+				"player": true,
+				"probe": false,
+				"position": {"x": -7.633037, "y": -39.76048, "z": -8.724027},
+				"radius": 18,
+			}
+		],
+		"notificationVolumes": [
+			{
+				"position": {"x": -7.633037, "y": -39.76048, "z": -8.724027},
+				"radius": 18,
+				"entryNotification": {"displayMessage": "Frozen jellyfish located"}
 			}
 		]
 	},
