@@ -417,6 +417,8 @@
 			<Page>Another thing, the docs do not specify that the "value" of "curve" based on the "size" value. I assumed it would be setting the size to the value, but actually, it is a multiplier of its size.</Page>
 			<Page>But wait, that's not true either! It is also DOUBLED! And this isn't documnted at all, you just have to figure it out!!</Page>
 			
+			<Page>Also you cannot set more than one condition at once in a dialogue option, which was a little inconvenient.</Page>
+			
 			<Page><![CDATA[My biggest concern, the Name field of celestial objects is used as the <i>unique ID</i> for that planet. But it is also used for the <i>display name</i> of that planet, like on the map and on the ship log's map mode! Why?!]]></Page>
 			<Page>It is very lucky that my planets have no name conflicts with other Jam 5 mods, considering I did the very creative thing of just doing a miniature parody of the original Outer Wilds system!</Page>
 			<Page>By the way, the Outer Wilds system is already very very <![CDATA[<i>very</i>]]> miniature compared to real ones, so that makes my entry miniature squared? I win! Or well I guess not since everyone's entry is the same 2500 meters radius... whatever.</Page>
