@@ -27,6 +27,12 @@
 				<Text>No, I do not care about your cat.</Text>
 				<DialogueTarget>DO_NOT_CARE</DialogueTarget>
 			</DialogueOption>
+		
+			<DialogueOption>
+				<Text>Tell me about the mod.</Text>
+				<DialogueTarget>ABOUT_MOD</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_YOU_WIN</RequiredLogCondition>
+			</DialogueOption>
 			
 		</DialogueOptionsList>
 		
@@ -110,6 +116,12 @@
 				<Text>Where did you last see your cat?</Text>
 				<DialogueTarget>LAST_SEE_CAT_NOT_TREE</DialogueTarget>
 				<RequiredCondition>REMEMBERS_CAT_NOT_ON_TREE</RequiredCondition>
+			</DialogueOption>
+		
+			<DialogueOption>
+				<Text>Tell me about the mod.</Text>
+				<DialogueTarget>ABOUT_MOD</DialogueTarget>
+				<RequiredLogCondition>LEESPORK_JAM5_YOU_WIN</RequiredLogCondition>
 			</DialogueOption>
 			
 		</DialogueOptionsList>
@@ -205,7 +217,7 @@
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Thanks, that is all I need!</Text>
-				<DialogueTarget>GOODBYE</DialogueTarget>
+				<DialogueTarget>GOODBYE_GL</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -221,7 +233,7 @@
 	</DialogueNode>
 
 	<DialogueNode>
-		<Name>GOODBYE</Name>
+		<Name>GOODBYE_GL</Name>
 		<Dialogue>
 			<Page>Good luck!</Page>
 		</Dialogue>
@@ -247,6 +259,17 @@
 		
 		<SetCondition>LEESPORK_JAM5_DIE_HAPPY</SetCondition>
 		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Tell me about the mod.</Text>
+				<DialogueTarget>ABOUT_MOD</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye</Text>
+				<DialogueTarget>GOODBYE_FINAL</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		
 	</DialogueNode>
 
 	<DialogueNode>
@@ -259,29 +282,30 @@
 	</DialogueNode>
 
 	<DialogueNode>
-		<Name>TRAP</Name>
+		<Name>OTHER_CREDITS</Name>
 		
 		<Dialogue>
+			<Page>Anyway, no mod is made in a vacuum, so here are the extended credits!</Page>
+			
 			<Page>Special thanks to the developer(s) of the xen.NewHorizonsExamples mod, which I used for reference material for developing this mod.</Page>
 			<Page>Special thanks to the developer(s) of the xen.PlayAsGabbro mod, which I also used for reference.</Page>
 			<Page>Special thanks to the developer(s) of the xen-42.ModJam5 mod, which I also used for reference.</Page>
-			<Page>Wait, did I just thank xen42 three times? Anyway...</Page>
+			<Page>Wait, did I just thank Xen three times? Anyway...</Page>
 			<Page>Special thanks to the developer(s) of the Trifid.TrifidJam3 mod, which I also used as reference.</Page>
 			<Page>Special thanks to the developer(s) of the LeeSpork.ModJam5 m- No wait, that's me.</Page>
-			<Page>Special thanks to all the contributors of New Horizons and its online guides, for making this mod possible despite me not bothering to learn how to code or create assets for Outer Wilds.</Page>
+			<Page>Special thanks to all the contributors of New Horizons and its online documentation, for making this mod possible despite me not bothering to learn how to code or create assets for Outer Wilds.</Page>
 			<Page>Special thanks to the developers of Outer Wilds, for obvious reasons.</Page>
-			<Page>Special thanks to the judges of the 5th Outer Wilds Mod Jam, who are presumably going to be judging this despite the fact that is not going to win,</Page>
+			<Page>Special thanks to the judges of the 5th Outer Wilds Mod Jam, who are presumably going to be judging this despite the fact that is clearly not going to win...</Page>
 			<Page>and are therefore going to be giving me $0 in prize money, which means I win because the theme was miniature and you can't get much smaller than nothing!</Page>
 			<Page>Special thanks to Notepad++, even though I really should have been using something that actually checks if my code was valid</Page>
-			<Page>Special thanks to Paint.NET,</Page>
-			<Page>and BoltBait's Black and White+ v6.0 plugin</Page>
+			<Page>Special thanks to Paint.NET, and BoltBait's Black and White+ v6.0 plugin.</Page>
 			<Page>Special thanks to Firefox, in which I currently have seven thousand, five hundred and seventy-four tabs open across twenty-three windows.</Page>
+			<Page>Special thanks to Xen again, for fixing the issue where Ping wouldn't help me meditate.</Page>
+			<Page>And a very special thanks to the members of the Outer Wilds Modding Discord server!</Page>
+			<Page>Also, more than a special thanks to the organisers and judges of the fifth Outer Wilds mod jam! (I just had to thank Xen a fifth time)</Page>
 		</Dialogue>
 		
-		<RevealFacts>
-			<FactID>LEESPORK_JAM5_CAT_LAST_SEEN</FactID>
-		</RevealFacts>
-		
+		<DialogueTarget>MOD_PROBLEMS_RANT</DialogueTarget>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -302,4 +326,114 @@
 		</Dialogue>
 	</DialogueNode>
 
-</DialogueTree>
+	<DialogueNode>
+		<Name>GOODBYE_FINAL</Name>
+		<Dialogue>
+			<Page>Farewell!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ABOUT_MOD</Name>
+		<Dialogue>
+			<Page>I will now talk on behalf of the mod's creator, LeeSpork. Thank you for playing my mod!</Page>
+			<Page>If you enjoyed it, please let me know! Or even if you didn't, I would love to hear your thoughts on it!</Page>
+			<Page>This was my first Outer Wilds mod! Just a simple New Horizons plugin to get my foot in the door. I sadly didn't have enough willpower to get started with 3D modelling and custom programming in time for the mod jam.</Page>
+			<Page>Speaking of, I'm so glad I was able to compete in a mod jam! Even if there was never any chance of me actually winning. The miniature star systems theme of this mod jam was also a great one for a first-time modder, keeping the scope nice and contained.</Page>
+			<Page>I actually didn't start making this mod until almost a week in, simply because I had no idea what I wanted the mod to be about.</Page>
+			<Page>Eventually, I settled on what you just played, even though it doesn't follow the "miniature" theme super well.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>This dialogue is kind of long, can I leave?</Text>
+				<DialogueTarget>TRAP</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Go on, I wish to hear about everything in excruciating detail.</Text>
+				<DialogueTarget>ABOUT_MOD_CONT</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>TRAP</Name>
+		<Dialogue>
+			<Page>Ha! You have fallen victim to one of the classic blunders. This dialogue is not ending any time soon...</Page>
+			<Page>And now that you have started this dialogue, you cannot leave!</Page>
+			<Page><![CDATA[And in addition, the theme of this jam was <color=orange>miniature</color>, and <i>I therefore made the supernova happen was sooner than normal!</i>]]></Page>
+			<Page>Now you will be doomed to listen to me <![CDATA[<i>until the sun explodes!</i>]]></Page>
+			<Page>So, where was I...</Page>
+		</Dialogue>
+		<DialogueTarget>ABOUT_MOD_CONT</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ABOUT_MOD_CONT</Name>
+		<Dialogue>
+			<Page>This whole plot was actually based on a quote from the 2019 text-based adventure game "Kyle is Famous", which is on Steam.</Page>
+			<Page>There is a part in the Complete Edition where the narrator says "It was time to investigate the mystery of... I cannot find my cat."</Page>
+			<Page>I thought this quote was funny, hence the entire story of this mod.</Page>
+			<Page>Leuc was originally named "Self-Insert", which is why they use the "self" NPC model. However, I realised that the plot only works if the cat owner is dysfunctional in a way that I am not, so I changed them to be a ficitional character to avoid any implications.</Page>
+		</Dialogue>
+		<DialogueTarget>OTHER_CREDITS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>MOD_PROBLEMS_RANT</Name>
+		<Dialogue>
+			<Page>So, what problems did I encounter while making this mod?</Page>
+			
+			<Page>One really silly issue I discovered was that the size of the supernova blast is inversely proportional to the supernova speed, even ignoring the configured supernova size value.</Page>
+			<Page>I tried setting the speed really low so that you could escape it, but this resulted in it eating the entire rest of Jam 5!</Page>
+			
+			<Page>One issue I had was due to how I used the vessel geometry copied directly from the base game's Dark Bramble. The collision of the entire bramble dimension it is inside baked into its collisions, and they do not line up with the bramble dimension added by New Horizons!</Page>
+			<Page>I solved this by simply making the bramble dimension way smaller, which is why the vessel is proportinally closer to the entrance than it is in the base game.</Page>
+			<Page>Another issue I had in the vessel was the Hearthian recorder's dialogue not working. Turns out it doesn't work if the dialogue is placed with its centre point exactly in the ground!</Page>
+
+			<Page>Another thing that I discovered the hard way was that getting hit by the supernova while sleeping causes you to never wake up.</Page>
+			<Page>Well I suppose you already know that, because I wrote a note next to the campfire to warn you of it...</Page>
+			<Page>I slept right through the end of the loop! You go past 22 minutes, and just keep going! I had to Alt+F4 the game to escape!</Page>
+			<Page>I'm not actually sure if that still happens. Maybe it had to do with the supernova size bug I mentioned before? But like, better safe than sorry.</Page>
+			
+			<Page>I have some complaints about New Horizons.</Page>
+			
+			<Page>For a stellar remnant, it turns out you have to explicitly remove the ship log for it, else the ship log computer bugs out and softlocks the game. I guess because it's the same planet ID as the star?</Page>
+			<Page>It is not documentated that you have to do this. And why can't it just do that automatically?</Page>
+			
+			<Page>On detail props, I found no way of removing specific components. You either remove all components, or none of them.</Page>
+			<Page>I had to remove the components of this very NPC, in case you are wondering, because otherwise there would be a "YOU ARE HERE" marker the map here.</Page>
+			
+			<Page>Another thing, the docs do not specify that the "value" of "curve" based on the "size" value. I assumed it would be setting the size to the value, but actually, it is a multiplier of its size.</Page>
+			<Page>But wait, that's not true either! It is also DOUBLED! And this isn't documnted at all, you just have to figure it out!!</Page>
+			
+			<Page><![CDATA[My biggest concern, the Name field of celestial objects is used as the <i>unique ID</i> for that planet. But it is also used for the <i>display name</i> of that planet, like on the map and on the ship log's map mode! Why?!]]></Page>
+			<Page>It is very lucky that my planets have no name conflicts with other Jam 5 mods, considering I did the very creative thing of just doing a miniature parody of the original Outer Wilds system!</Page>
+			<Page>By the way, the Outer Wilds system is already very very <![CDATA[<i>very</i>]]> miniature compared to real ones, so that makes my entry miniature squared? I win! Or well I guess not since everyone's entry is the same 2500 meters radius... whatever.</Page>
+			
+			<Page>So I might have to be submitting some issues to the New Horizons GitHub after this...</Page>
+		</Dialogue>
+		<DialogueTarget>SO_UHH</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SO_UHH</Name>
+		<Dialogue>
+			<Page>So uhh... You're still here?</Page>
+			<Page>Haven't been killed by the supernova yet?</Page>
+			<Page>Or perhaps you skipped through the dialogue to get to this point?</Page>
+			<Page>If you actually read all of this, you are super.</Page>
+			<Page>I don't have anything else for you though...</Page>
+			<Page>Uhh....</Page>
+			<Page>I love fish and chips.</Page>
+			<Page>I hate Stardew Valley.</Page>
+			<Page>...</Page>
+			<Page>.....................................</Page>
+			<Page>Okay fine, you can go.</Page>
+			<Page>I can't believe you escaped my super-long dialogue under a short-lived star trap!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+
+</DialogueTree> <!-- This is the end of the file -->
