@@ -65,6 +65,51 @@
 				"isRelativeToParent": true,
 				"position": {"x": 0.2744, "y": 0.652, "z": 0.0659},
 				"rotation": {"x": 2.5, "y": 323, "z": 270}
+			},
+			{
+				"rename": "pot0",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",
+				"position": {"x": -9.25242, "y": 1.183152E-05, "z": 64.74618},
+				"rotation": {"x": 4.143738E-06, "y": 118.2554, "z": -4.412108E-06}
+			},
+			{
+				"rename": "pot1",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",
+				"position": {"x": -6.313675, "y": 1.212955E-05, "z": 68.21701},
+				"rotation": {"x": 3.689623E-06, "y": 144.8957, "z": -2.880484E-06}
+			},
+			{
+				"rename": "pot2",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",
+				"position": {"x": 7.67977, "y": 1.192093E-05, "z": 67.12679},
+				"rotation": {"x": 3.682873E-06, "y": 231.7988, "z": 3.936258E-06}
+			},
+			{
+				"rename": "plant0",
+				"parentPath": "Sector/pot0",
+				"isRelativeToParent": true,
+				"position": {"x": 0, "y": -1, "z": 0},
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"scale": 0.39,
+				"rotation": {"x": 0, "y": 2, "z": 0}
+			},
+			{
+				"rename": "plant1",
+				"parentPath": "Sector/pot1",
+				"isRelativeToParent": true,
+				"position": {"x": 0, "y": -1, "z": 0},
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"scale": 0.59,
+				"rotation": {"x": 0, "y": 135, "z": 0}
+			},
+			{
+				"rename": "plant2",
+				"parentPath": "Sector/pot2",
+				"isRelativeToParent": true,
+				"position": {"x": 0, "y": -1, "z": 0},
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"scale": 0.46,
+				"rotation": {"x": 0, "y": 287, "z": 0}
 			}
 		],
 		"translatorText": [
