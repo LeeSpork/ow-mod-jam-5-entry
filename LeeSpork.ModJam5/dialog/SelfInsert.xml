@@ -125,7 +125,7 @@
 			</DialogueOption>
 		
 			<DialogueOption>
-				<Text>Bye.</Text>
+				<Text>Goodbye.</Text>
 				<DialogueTarget>GOODBYE_FROM_HUB</DialogueTarget>
 			</DialogueOption>
 			
