@@ -123,6 +123,11 @@
 				<DialogueTarget>ABOUT_MOD</DialogueTarget>
 				<RequiredLogCondition>LEESPORK_JAM5_YOU_WIN</RequiredLogCondition>
 			</DialogueOption>
+		
+			<DialogueOption>
+				<Text>Bye.</Text>
+				<DialogueTarget>GOODBYE_FROM_HUB</DialogueTarget>
+			</DialogueOption>
 			
 		</DialogueOptionsList>
 		
@@ -528,6 +533,13 @@
 		</Dialogue>
 		
 		<DialogueTarget>SO_UHH</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>GOODBYE_FROM_HUB</Name>
+		<Dialogue>
+			<Page>Do keep an eye out for my cat!</Page>
+		</Dialogue>
 	</DialogueNode>
 
 </DialogueTree> <!-- This is the end of the file -->
