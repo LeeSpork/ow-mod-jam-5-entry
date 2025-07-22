@@ -212,7 +212,7 @@
 		</RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>So, where might your cat actually be?</Text>
+				<Text>So, where might your cat actually be? I'm stumped.</Text>
 				<DialogueTarget>TRUE_CAT_LOCATION_HINT</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
