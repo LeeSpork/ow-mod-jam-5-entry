@@ -8,12 +8,12 @@
 		
 		<IgnoreMoreToExplore/>
 		
-		<RumorFact>
+		<ExploreFact>
 			<ID>LEESPORK_JAM5_FOUND_CACTUS_UNDER_PLATFORM</ID>
-			<RumorName>Cactus under platform</RumorName>
 			<Text>I found a cactus on the underside of a platform inside Central Station.</Text>
-			<SourceID>JAM_5_BASE_CENTRAL_STATION_ROOT</SourceID>
-		</RumorFact>
+			<!-- <RumorName>Cactus under platform</RumorName>
+			<SourceID>JAM_5_BASE_CENTRAL_STATION_ROOT</SourceID> -->
+		</ExploreFact>
 		
 		<ExploreFact>
 			<ID>LEESPORK_JAM5_CACTUS_NOMI_WONDERS_WHERE</ID>
