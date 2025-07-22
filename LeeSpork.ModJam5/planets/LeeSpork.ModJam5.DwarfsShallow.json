@@ -9,10 +9,10 @@
 	},
 	"Base" : {
 		"surfaceGravity": 24,
-		"surfaceSize": 200,
+		"surfaceSize": 150,
 	},
 	"Water": {
-		"size": 200,
+		"size": 150,
 		"tint": {
 			  "r": 33,
 			  "g": 122,
@@ -20,7 +20,7 @@
 		}
 	},
 	"Atmosphere": {
-		"size": 267,
+		"size": 200,
 		"atmosphereTint": {
 			  "r": 51,
 			  "g": 183,
