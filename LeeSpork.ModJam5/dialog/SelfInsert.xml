@@ -296,11 +296,12 @@
 		<Dialogue>
 			<Page>Anyway, no mod is made in a vacuum, so here are the extended credits!</Page>
 			
-			<Page>Special thanks to the developer(s) of the xen.NewHorizonsExamples mod, which I used for reference material for developing this mod.</Page>
-			<Page>Special thanks to the developer(s) of the xen.PlayAsGabbro mod, which I also used for reference.</Page>
-			<Page>Special thanks to the developer(s) of the xen-42.ModJam5 mod, which I also used for reference.</Page>
+			<Page>Special thanks to the developer of the Callis's Thesis (Echatsum.CallisThesis) mod, which inspired me by showing that a simple, novice jam mod can be memorable and fun!</Page>
+			<Page>Special thanks to the developer(s) of the New Horizons Examples (xen.NewHorizonsExamples) mod, which I used for reference material for developing this mod.</Page>
+			<Page>Special thanks to the developer(s) of the Play as Gabbro (xen.PlayAsGabbro) mod, which I also used for reference.</Page>
+			<Page>Special thanks to the developer(s) of the Mod Jam 5 base mod (xen-42.ModJam5), which I also used for reference.</Page>
 			<Page>Wait, did I just thank Xen three times? Anyway...</Page>
-			<Page>Special thanks to the developer(s) of the Trifid.TrifidJam3 mod, which I also used as reference.</Page>
+			<Page>Special thanks to the developer(s) of the Echo Hike (Trifid.TrifidJam3) mod, which I also used as reference.</Page>
 			<Page>Special thanks to the developer(s) of the LeeSpork.ModJam5 m- No wait, that's me.</Page>
 			<Page>Special thanks to all the contributors of New Horizons and its online documentation, for making this mod possible despite me not bothering to learn how to code or create assets for Outer Wilds.</Page>
 			<Page>Special thanks to the developers of Outer Wilds, for obvious reasons.</Page>
@@ -310,7 +311,8 @@
 			<Page>Special thanks to Paint.NET, and BoltBait's Black and White+ v6.0 plugin.</Page>
 			<Page>Special thanks to the Firefox web browser, in which I currently have seven thousand five hundred and seventy-four tabs open across twenty-three windows.</Page>
 			<Page>And a very special thanks to the members of the Outer Wilds Modding Discord server!</Page>
-			<Page>Also, more than a special thanks to the organisers and judges of the fifth Outer Wilds mod jam! (Yes I just thanked Xen again.)</Page>
+			<Page>And also, last but not least, a more than a special thanks to the organisers and judges of the fifth Outer Wilds mod jam!</Page>
+			<Page>(Yes I just thanked Xen again.)</Page>
 		</Dialogue>
 		
 		<SetCondition>LEESPORK_JAM5_SPECIAL_THANKED</SetCondition>
@@ -361,7 +363,7 @@
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Please go on, I wish to hear about everything in excruciating detail.</Text>
-				<DialogueTarget>ABOUT_MOD_CONT</DialogueTarget>
+				<DialogueTarget>WILLING_TRAP</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -369,11 +371,23 @@
 	<DialogueNode>
 		<Name>TRAP</Name>
 		<Dialogue>
-			<Page>Ha! You have fallen victim to one of the classic blunders. This dialogue is not ending any time soon...</Page>
+			<Page>Ha! You have fallen victim to one of the classic blunders. This dialogue is not ending any time soon!</Page>
 			<Page>And now that you have started this dialogue, you cannot leave!</Page>
-			<Page><![CDATA[And in addition, the theme of this jam was <color=orange>miniature</color>, and <i>I therefore made the supernova happen was sooner than normal!</i>]]></Page>
+			<Page><![CDATA[And in addition, the theme of this jam was <color=orange>miniature</color>, and <i>I therefore made the supernova happen way sooner than normal!</i>]]></Page>
 			<Page>Now you will be doomed to listen to me <![CDATA[<i>until the sun explodes!</i>]]></Page>
 			<Page>So, where was I...</Page>
+			<Page>This whole plot was actually based on a quote from the 2019 text-based adventure game "Kyle is Famous", which is on Steam.</Page>
+		</Dialogue>
+		<DialogueTarget>ABOUT_MOD_CONT</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>WILLING_TRAP</Name>
+		<Dialogue>
+			<Page>Wait, really? I wasn't expecting that... You see, I hope this doesn't come across as mean, but <![CDATA[<i>you've fallen for my trap!</i>]]></Page>
+			<Page><![CDATA[You see, the theme of this jam was <color=orange>miniature</color>, and I therefore made the supernova happen way sooner than normal...]]></Page>
+			<Page><![CDATA[And now that you have started this really long dialogue, you cannot leave! And now you are doomed to listen to me rambling on <i>literally until the sun explodes!</i>]]></Page>
+			<Page>Anyway, since you asked, this whole plot was actually based on a quote from the 2019 text-based adventure game "Kyle is Famous", which is on Steam.</Page>
 		</Dialogue>
 		<DialogueTarget>ABOUT_MOD_CONT</DialogueTarget>
 	</DialogueNode>
@@ -381,18 +395,19 @@
 	<DialogueNode>
 		<Name>ABOUT_MOD_CONT</Name>
 		<Dialogue>
-			<Page>This whole plot was actually based on a quote from the 2019 text-based adventure game "Kyle is Famous", which is on Steam.</Page>
 			<Page>There is a part in the Complete Edition where the narrator says "It was time to investigate the mystery of... I cannot find my cat."</Page>
 			<Page>I thought this quote was funny, hence the entire story of this mod.</Page>
-			<Page>Leuc was originally named "Self-Insert", which is why they use the "self" NPC model. However, I realised that the plot only works if the cat owner is dysfunctional in a way that I am not, so I changed them to be a fictional character to avoid any implications.</Page>
+			<Page>I originally wasn't going to make it also be the name of the mod, since I figured it might have more impact if you do not hear it until you talk to Leuc, though in the end, I could not think of any better name.</Page>
+			<Page>Speaking of Leuc, they were originally named "Self-Insert", which is why they use the "self" NPC model. However, I realised that the plot only works if the cat owner is dysfunctional in a way that I am not, so I changed them to be a fictional character to avoid any implications.</Page>
 			<Page>As for the planets, you may have noticed that they are parodies of the planets from the base game. When I was brainstorming mini solar system ideas for this mod jam, it was the most obvious option to just remake the Outer Wilds, but smaller.</Page>
 			<Page>Of course, you may have noticed several key locations are missing, most notable Brittle Hollow and the Hourglass Twins.</Page>
 			<Page>I considered parodying the Hourglass Twins by having a warp core orbiting the sun, since it kind of looks like an hourglass, and certainly fits the "miniature" bill!</Page>
 			<Page>Though I decided against it in the end, since I didn't want to mislead players who might assume it would be a key item.</Page>
 			<Page>For the Brittle Hollow analog, I was going to add a black hole orbiting between Log Fireplace and Dwarf's Shallow. Leuc would call the player's attention to it, saying something about how there used to be a planet there, but now it's just a hole.</Page>
-			<Page>Falling into the black hole would of course then take you to the White Hole Train Station, above the plane of the solar system.</Page>
+			<Page>Falling into the black hole would of course then take you to the White Hole <![CDATA[<i>Train</i>]]> Station, above the plane of the solar system.</Page>
 			<Page>But I couldn't figure out how to fit it into the story, and of course I would be very limited on time to somehow model a train station anyway, so it didn't make it into the final mod.</Page>
-			<Page>Speaking of not making it into the final mod, I couldn't figure out how to work with the Probe Control Module asset. The only other stand-alone Nomai building asset with collision that I could find was the tower on the quantum moon, however, the top and bottom of that model is not closed. In the end, the Nomai escape pod was way easier to work with, so that is what I went with for the structure in the core of Dwarf's Shallow.</Page>
+			<Page>Speaking of not making it into the final mod, I couldn't figure out how to work with the Probe Control Module asset. The only other stand-alone Nomai building asset with collision that I could find was the tower on the quantum moon, however, the top and bottom of that model is not closed. In the end, the Nomai escape pod was way easier to work with, so that's what I went with for the structure in the core of Dwarf's Shallow.</Page>
+			<Page>If you've found Esterno, and the recorder on the North Pole tree, you might have noticed that they all falsely claim to be the cat. This was loosely inspired by a running gag in ENA: Dream BBQ, a 2025 episodic exploration adventure game that is available for free on Steam.</Page>
 		</Dialogue>
 		<DialogueTarget>OTHER_CREDITS</DialogueTarget>
 	</DialogueNode>
@@ -400,7 +415,7 @@
 	<DialogueNode>
 		<Name>MOD_PROBLEMS_RANT</Name>
 		<Dialogue>
-			<Page>So, what problems did I encounter while making this mod?</Page>
+			<Page>So, other than what was pointed out by user feedback, what problems did I encounter while making this mod?</Page>
 			
 			<Page>One really silly issue I discovered was that the size of the supernova blast is inversely proportional to the supernova speed, even ignoring the configured supernova size value.</Page>
 			<Page>I tried setting the speed really low so that you could escape it, but this resulted in it eating the entire rest of Jam 5!</Page>
@@ -410,7 +425,7 @@
 			<Page>Another issue I had in the vessel was the Hearthian recorder's dialogue not working. Turns out, it doesn't work if the dialogue is placed with its centre point exactly in the ground!</Page>
 			
 			<Page>Another silly thing was that this planet, Log Fireplace, is so small that when I first added the geyser to it, the very bottom of it went right through the planet and appeared upside-down inside the warp pad!</Page>
-			<Page>It was strong enough that it could even prevent the player from entering the warp pad's black hole! Wanted to return to Central Station and got the cycle on the geyser wrong? Too bad lol!</Page>
+			<Page>It was strong enough that it could even prevent the player from entering the warp pad's black hole! Wanted to return to Central Station but got unlucky with the cycle on the geyser? Too bad lol!</Page>
 			<Page>Luckily, fixing this was as simple as increasing the offset of the geyser.</Page>
 			
 			<Page>Another thing that I discovered the hard way was that getting hit by the supernova while sleeping can cause you to never wake up.</Page>
@@ -431,7 +446,7 @@
 			
 			<Page>Also you cannot set more than one condition at once in a dialogue option, which was a little inconvenient.</Page>
 			
-			<Page><![CDATA[My biggest concern, the Name field of celestial objects is used as the <i>unique ID</i> for that planet. But it is also used for the <i>display name</i> of that planet, like on the map and on the ship log's map mode! Why?!]]></Page>
+			<Page><![CDATA[My biggest concern, the Name field of celestial objects is used as the <i>unique ID</i> for that planet. But it is also used for the <i>display name</i> of that planet, like on the map and on the ship log's map mode. Why?!]]></Page>
 			<Page>It is very lucky that my planets have no name conflicts with other Jam 5 mods, considering I did the very creative thing of just doing a miniature parody of the original Outer Wilds system!</Page>
 			<Page>By the way, the Outer Wilds system is already very very <![CDATA[<i>very</i>]]> miniature compared to real ones, so that makes my entry miniature squared? I win! Or well I guess not since everyone's entry is the same 2500 meters radius... whatever.</Page>
 			
@@ -462,13 +477,15 @@
 	<DialogueNode>
 		<Name>JAM_EXTENTION</Name>
 		<Dialogue>
-			<Page>With that done... Did you know that this mod jam had a two-day extension?</Page>
+			<Page>With that done... Did you know that this mod jam had a two-day extension?</Page> <!-- great segue</s> -->
 			<Page>Even though I planned around not having an extension and made sure my mod was ready by the original deadline, I'm glad there was one!</Page>
 			<Page>One person on Discord was complaining about how barren a few of the platforms in the Central Station were, so I made use of the extension to add potted trees to mine.</Page>
-			<Page>Of course I already had those two benches - one with a spork representing me, and an empty one just for you, dear player! But on their own, they still didn't really help you tell apart my platform at a glance, being such small details.</Page>
+			<Page>Of course I already had those two benches - one with a spork representing me, and an unoccupied one just for you, dear player! But on their own, they really didn't help you tell apart my platform at a glance, being such small details. So the suggestion to add potted plant(s) was really good!</Page>
 			<Page>I also used the extension to add this whole line of dialogue! If there wasn't an extension, Leuc would have nothing more to say after you got congratulated for completing the mod.</Page>
 			<Page>Yeah that's right, if the other modders were more diligent and had finished their jam entries on time, you wouldn't have to be listening through any of this rambling!</Page>
 			<Page>No offense meant to them though, the extension was well-deserved! Besides, this whole dialogue trap thing was also something that I intended to add from the start but didn't have time to prioritise until the extension was announced.</Page>
+			<Page>I also used the extension to respond to a player getting stuck playing the mod. An extension after the mod is published comes in clutch when you have no playtesters!</Page>
+			<Page><![CDATA[Namely, I made sure Dim Thorn gets destroyed by the supernova. Previously, it got blocked by sand to prevent you from shooting your scout in after the supernova, because that causes a bug where the duplicate scout signal from the hidden node would still show up, but it would be buggy and weird since hidden node is destroyed at that point. This sand thing however was not ideal, as there was no indication that it is not <i>always</i> blocked by sand!]]></Page>
 		</Dialogue>
 		
 		<DialogueTarget>MOD_PROBLEMS_RANT</DialogueTarget>
