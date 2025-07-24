@@ -18,4 +18,4 @@ This mod may have been made more difficult than intended, as some players may no
 ### Note about using this entry with other entries
 This mod was designed on version 1.0.3 of the Jam 5 base mod with no other jam entries installed. In base mod v1.0.5 with **all 16** entries installed, it is around 6 seconds slower to reach a key planet by flying your ship from the Central Station (it is still possible to fly directly to it despite it being harder to see it).
 
-This difference in timing should not be particularly noticeable by my testing (Though as mentioned above, results may vary).
+This difference in timing should have virtually no effect on gameplay by my testing (Though as mentioned above, your mileage may vary).
