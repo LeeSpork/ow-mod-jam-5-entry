@@ -40,7 +40,7 @@
 
 	<DialogueNode>
 		<Name>TALK_AGAIN</Name>
-		<EntryCondition>TALKED_ONCE</EntryCondition>
+		<EntryCondition>LEESPORK_JAM5_TALKED_ONCE</EntryCondition>
 		
 		<Dialogue>
 			<Page>Hello again! Have you found my cat yet?</Page>
@@ -78,7 +78,7 @@
 			<Page>...</Page>
 		</Dialogue>
 		
-		<SetCondition>TALKED_ONCE</SetCondition>
+		<SetCondition>LEESPORK_JAM5_TALKED_ONCE</SetCondition>
 		
 		<DialogueOptionsList>
 			
@@ -109,13 +109,13 @@
 			<DialogueOption>
 				<Text>Where did you last see your cat?</Text>
 				<DialogueTarget>LAST_SEE_CAT</DialogueTarget>
-				<CancelledCondition>REMEMBERS_CAT_NOT_ON_TREE</CancelledCondition>
+				<CancelledCondition>LEESPORK_JAM5_REMEMBERS_CAT_NOT_ON_TREE</CancelledCondition>
 			</DialogueOption>
 
 			<DialogueOption>
 				<Text>Where did you last see your cat?</Text>
 				<DialogueTarget>LAST_SEE_CAT_NOT_TREE</DialogueTarget>
-				<RequiredCondition>REMEMBERS_CAT_NOT_ON_TREE</RequiredCondition>
+				<RequiredCondition>LEESPORK_JAM5_REMEMBERS_CAT_NOT_ON_TREE</RequiredCondition>
 			</DialogueOption>
 		
 			<DialogueOption>
@@ -159,7 +159,7 @@
 			<Page>But, can you please give it a shot? It looks like a small seed, and it is the furthest object orbiting my sun.</Page>
 		</Dialogue>
 		
-		<SetCondition>REMEMBERS_CAT_NOT_ON_TREE</SetCondition>
+		<SetCondition>LEESPORK_JAM5_REMEMBERS_CAT_NOT_ON_TREE</SetCondition>
 		
 	</DialogueNode>
 
