@@ -370,7 +370,13 @@
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Please go on, I wish to hear about everything in excruciating detail.</Text>
+				<RequiredPersistentCondition>LEESPORK_JAM5_FELL_FOR_TRAP</RequiredPersistentCondition>
 				<DialogueTarget>WILLING_TRAP</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I talked to you at the Mod Jam Hub!</Text>
+				<RequiredPersistentCondition>LEESPORK_JAM5_HUB_TOLD_DEV_COMM</RequiredPersistentCondition>
+				<DialogueTarget>TRAP_FROM_MOD_JAM_HUB</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -391,10 +397,22 @@
 	<DialogueNode>
 		<Name>WILLING_TRAP</Name>
 		<Dialogue>
-			<Page>Wait, really? I wasn't expecting that... You see, I hope this doesn't come across as mean, but <![CDATA[<i>you've fallen for my trap!</i>]]></Page>
-			<Page><![CDATA[You see, the theme of this jam was <color=orange>miniature</color>, and I therefore made the supernova happen way sooner than normal...]]></Page>
-			<Page><![CDATA[And now that you have started this really long dialogue, you cannot leave! You are doomed to listen to me rambling on <i>literally until the sun explodes!</i>]]></Page>
+			<Page><![CDATA[Wait, really? I wasn't expecting that... I hope this doesn't come across as mean, but this was meant to be a trap! You see, since the theme of this jam was <color=orange>miniature</color>, I made the supernova happen way sooner than normal.]]></Page>
+			<Page>That way, unsuspecting players would get trapped in this overly long dialogue and die to the supernova! So uh, sorry about not giving you enough time to read all the dialogue...</Page>
 			<Page>Anyway, since you asked, this whole plot was actually based on a quote from the 2019 text-based adventure game "Kyle is Famous", which is on Steam.</Page>
+		</Dialogue>
+		<DialogueTarget>ABOUT_MOD_CONT</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>TRAP_FROM_MOD_JAM_HUB</Name>
+		<Dialogue>
+			<Page>Oh yeah, I did tell you to enter this line of dialogue didn't I...</Page>
+			<Page><![CDATA[Man, that was really mean of me, because now <i>you have fallen for my trap!</i>]]></Page>
+			<Page><![CDATA[You see, the theme of this jam was <color=orange>miniature</color>, and I therefore made the supernova happen way sooner than normal!]]></Page>
+			<Page><![CDATA[And now that you have started this really long dialogue, you cannot leave! You are doomed to listen to me rambling on <i>literally until the sun explodes!</i>]]></Page>
+			<Page>So, where was I...</Page>
+			<Page>This whole plot was actually based on a quote from the 2019 text-based adventure game "Kyle is Famous", which is on Steam.</Page>
 		</Dialogue>
 		<DialogueTarget>ABOUT_MOD_CONT</DialogueTarget>
 	</DialogueNode>
@@ -414,7 +432,8 @@
 			<Page>Falling into the black hole would of course then take you to the White Hole <![CDATA[<i>Train</i>]]> Station, above the plane of the solar system.</Page>
 			<Page>But I couldn't figure out how to fit it into the story, and of course I would be very limited on time to somehow model a train station anyway, so it didn't make it into the final mod.</Page>
 			<Page>Speaking of not making it into the final mod, I couldn't figure out how to work with the Probe Control Module asset. The only other stand-alone Nomai building asset with collision that I could find was the tower on the quantum moon, however, the top and bottom of that model is not closed. In the end, the Nomai escape pod was way easier to work with, so that's what I went with for the structure in the core of Dwarf's Shallow.</Page>
-			</Dialogue>
+		</Dialogue>
+		<SetPersistentCondition>LEESPORK_JAM5_FELL_FOR_TRAP</SetPersistentCondition>
 		<DialogueTarget>OTHER_CREDITS</DialogueTarget>
 	</DialogueNode>
 
