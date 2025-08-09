@@ -263,6 +263,7 @@
 		</RevealFacts>
 		
 		<SetCondition>LEESPORK_JAM5_DIE_HAPPY</SetCondition>
+		<SetPersistentCondition>LEESPORK_JAM5_COMPLETED</SetPersistentCondition>
 		
 	</DialogueNode>
 	
@@ -474,8 +475,8 @@
 			<Page>...</Page>
 			<Page>.....................................</Page>
 			<Page>Okay fine, you can go.</Page>
-			<Page>I can't believe you escaped my super-long dialogue under a short-lived star trap!</Page>
 		</Dialogue>
+		<DialogueTarget>SURVIVED_DEVELOPER_COMMENTARY</DialogueTarget>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -540,6 +541,14 @@
 		<Dialogue>
 			<Page>Do keep an eye out for my cat!</Page>
 		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SURVIVED_DEVELOPER_COMMENTARY</Name>
+		<Dialogue>
+			<Page>I can't believe you escaped my super-long dialogue under a short-lived star trap!</Page>
+		</Dialogue>
+		<SetPersistentCondition>LEESPORK_JAM5_COMPLETED_DEV_COMM</SetPersistentCondition>
 	</DialogueNode>
 
 </DialogueTree> <!-- This is the end of the file -->
