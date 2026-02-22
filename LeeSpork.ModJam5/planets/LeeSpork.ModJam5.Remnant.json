@@ -19,14 +19,34 @@
 		"curve": [
 			{
 				"time": 3.625,
-				"value": 1.0062893081761006
+				"value": 79.8 // 79.9 would cause "floor is lava" issue
 			},
 			{
-				"time": 24,
-				"value": 0.891848563324701
+				"time": 4,
+				"value": 79.5
+			},
+			{
+				"time": 8,
+				"value": 75.23 // Cusp of peak of first islands apearing
+			},
+			{
+				"time": 20.6,
+				"value": 73.0
+			},
+			{
+				"time": 21.9,
+				"value": 72.5
+			},
+			{
+				"time": 22.666,
+				"value": 70.95 // Lava completely gone (floor may still be lava in some spots)
+			},
+			{
+				"time": 100,
+				"value": 1.0 // If you disable time loop now the floor won't be lava I guess idk
 			}
 		],
-		"size": 79.5
+		"size": 1.0
 	},
 	"Props": {
 		"details": [
