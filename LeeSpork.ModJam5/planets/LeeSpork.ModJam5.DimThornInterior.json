@@ -8,26 +8,41 @@
 	"Bramble": {
 		"dimension":{
 			"linksTo": "LeeSpork.ModJam5.hiddenNodeExterior",
-			"radius": 90, // 125 would match downscaledscaled vessel, but must be smaller so vessel dimension batched collision doesn't get in way
+			// I want(ed) the radius to be 225, However, the collision of the DB vessel dimension cannot be seperated from the collision of the vessel.
+			// 125 radius matches the downscaledscaled vessel in theory.
+			// In TMOICFMC version 0.3.0 to 1.2.7, the radius was set to 90 (instead of rotating the DB vessel geometry to match up).
+			"radius": 125,
 			"vinePrefab": "none",
-			"allowedEntrances": [5]
+			"allowedEntrances": [5] // Entrance 5 is closest to vanilla DB vessel dimension entrance
 		}
 	},
+	"removeChildren": [
+		"Sector/Geometry" // Delete bramble dimension geometry provided by New Horizons, as we are using geometry of vanilla DB vessel dimension.
+	],
 	"Props": {
 		"details": [
 			{
-				"rename": "VesselGeometry",
+				// This is to rotate everything, to make the vanilla DB vessel dimension entrance/exit line up with the actual entrance/exit
+				"rename": "RootDummy",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 349.8276, "y": 3.9819, "z": 1.982}
+			},
+			{
 				"path": "DB_VesselDimension_Body/Sector_VesselDimension/Geometry_VesselDimension",
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
 				"position": {"x": 0, "y": 0, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 0},
 				"scale": 0.25,
 				"removeChildren": [
-					"OtherComponentsGroup/Terrain_DB_BrambleSphere_Outer_v2" // Visuals of original vessel dimension outerior
+					//"OtherComponentsGroup/Terrain_DB_BrambleSphere_Outer_v2" // Visuals of original vessel dimension outerior
 				]
 			},
 			{
 				"rename": "BlockingCacti",
 				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Sector_LakebedCaves/Interactables_LakebedCaves/QuantumMaze_Objects/Prefab_HT_QuantumStalactiteHALFBarrier (2)/Props_HGT_Cactus_Double_A/Main_HGT_Cactus_Double_A",
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
 				"position": {"x": 18.6357, "y": 0.2994, "z": -2.1088},
 				"rotation": {"x": 7.0074, "y": 225.7495, "z": 348.6883},
 				"scale": 1.34,
@@ -36,7 +51,7 @@
 			},
 			{
 				"rename": "BlockingCacti_dummy",
-				"parentPath": "Sector/BlockingCacti",
+				"parentPath": "Sector/RootDummy/BlockingCacti",
 				"position": {"x": 0, "y": 0, "z": 0},
 				"isRelativeToParent": true,
 				"activationCondition": "LEESPORK_HOLDING_CACTUS_TELEPORTER",
@@ -48,7 +63,9 @@
 				"removeChildren": null,
 				"path": "Moon_Body/Sector_THM/Interactables_THM/Prefab_HEA_Recorder",
 				"removeComponents": false,
-				"position": {"x": 33.51954, "y": 2.063962, "z": -3.730973},
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
+				"position": {"x": 33.51954, "y": 1.9112, "z": -3.730973},
 				"rotation": {"x": 13.46771, "y": 350.3773, "z": 2.560348}
 			},
 			
@@ -56,21 +73,29 @@
 			
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
 				"rotation": {"x": 13.5644884, "y": 331.154633, "z": 358.0275},
 				"position": {"x": 37.2582, "y": 3.37776375, "z": -8.623803}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
 				"rotation": {"x": 12.54888, "y": 315.402557, "z": 354.447235},
 				"position": {"x": 42.7689667, "y": 2.94786286, "z": -4.70745659}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
 				"rotation": {"x": 348.3139, "y": 191.4934, "z": 352.790863},
 				"position": {"x": 37.92775, "y": 1.57939816, "z": -0.5007584}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
 				"rotation": {"x": 345.091736, "y": 157.323349, "z": 359.014618},
 				"position": {"x": 41.48886, "y": 1.71250629, "z": -8.13412}
 			}
@@ -79,14 +104,14 @@
 			{
 				"xmlFile": "dialog/Blockage.xml",
 				"radius": 4,
-				"parentPath": "Sector/BlockingCacti/BlockingCacti_dummy",
+				"parentPath": "Sector/RootDummy/BlockingCacti/BlockingCacti_dummy",
 				"position": {"x": 0, "y": 0, "z": 0},
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialog/ProofRecorder.xml",
 				"radius": 1,
-				"pathToAnimController": "Sector/HearthianRecorder",
+				"pathToAnimController": "Sector/RootDummy/HearthianRecorder", // works as "parentPath"
 				"position": {"x": 0, "y": 0, "z": 0},
 				"isRelativeToParent": true
 			}
@@ -95,6 +120,8 @@
 			{
 				"type": "preCrashRecorder",
 				"xmlFile": "writing/VesselRecorder.xml",
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
 				"position": {"x": 37.68436, "y": 2.910381, "z": -6.418449},
 				"rotation": {"x": 12.34687, "y": 313.3567, "z": 354.0062}
 			}
@@ -137,9 +164,9 @@
 			},
 			{
 				"radius": 7,
-				"parentPath": "Sector/BlockingCacti",
-				"position": {"x": 0, "y": 0, "z": 0},
+				"parentPath": "Sector/RootDummy/BlockingCacti",
 				"isRelativeToParent": true,
+				"position": {"x": 0, "y": 0, "z": 0},
 				"revealOn": "enter",
 				"revealFor": "player",
 				"reveals": [
@@ -148,6 +175,8 @@
 			},
 			{
 				"radius": 6,
+				"parentPath": "Sector/RootDummy",
+				"isRelativeToParent": true,
 				"position": {"x": 33.34372, "y": 1.958384, "z": -3.872971},
 				"revealOn": "enter",
 				"revealFor": "player",
@@ -159,12 +188,16 @@
 		"forces": {
 			"directionalVolumes": [
 				{
+					"parentPath": "Sector/RootDummy",
+					"isRelativeToParent": true,
 					"position": {"x": 0, "y": 0, "z": 0},
 					"radius": 25,
 					"force": -2.1,
 					"playGravityCrystalAudio": false
 				},
 				{
+					"parentPath": "Sector/RootDummy",
+					"isRelativeToParent": true,
 					"position": {"x": 36.68745, "y": 2.108864, "z": -4.243613},
 					"radius": 14,
 					"force": -2.1,
