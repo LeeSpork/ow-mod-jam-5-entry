@@ -13,7 +13,7 @@
 				"alignmentWindow": 360,
 				"position": {
 					"x": 0,
-					"y": 0,
+					"y": -0.15,
 					"z": 60
 				}
 			}
@@ -48,13 +48,13 @@
 			},
 			{
 				"rename": "Your bench",
-				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Broken/Props_Module_Broken/Prefab_NOM_SimpleChair_NoSkeleton",
 				"rotation": {"x": -3.672065E-06, "y": 44.5618973, "z": -3.514683E-06},
 				"position": {"x": -7.487496, "y": 1.07288361E-05, "z": 52.55716}
 			},
 			{
 				"rename": "LeeSpork's bench",
-				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Broken/Props_Module_Broken/Prefab_NOM_SimpleChair_NoSkeleton",
 				"rotation": {"x": -5.068897E-06, "y": 314.405548, "z": 3.578425E-06},
 				"position": {"x": 7.46025562, "y": 1.07288361E-05, "z": 52.65178}
 			},
@@ -89,7 +89,7 @@
 				"parentPath": "Sector/pot0",
 				"isRelativeToParent": true,
 				"position": {"x": 0, "y": -1, "z": 0},
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling",
 				"scale": 0.39,
 				"rotation": {"x": 0, "y": 2, "z": 0}
 			},
@@ -98,7 +98,7 @@
 				"parentPath": "Sector/pot1",
 				"isRelativeToParent": true,
 				"position": {"x": 0, "y": -1, "z": 0},
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (4)/Tree_TH_Sapling",
 				"scale": 0.59,
 				"rotation": {"x": 0, "y": 135, "z": 0}
 			},
@@ -107,7 +107,7 @@
 				"parentPath": "Sector/pot2",
 				"isRelativeToParent": true,
 				"position": {"x": 0, "y": -1, "z": 0},
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (4)/Tree_TH_Sapling",
 				"scale": 0.46,
 				"rotation": {"x": 0, "y": 287, "z": 0}
 			}
