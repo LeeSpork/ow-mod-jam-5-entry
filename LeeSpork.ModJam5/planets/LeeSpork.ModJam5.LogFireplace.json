@@ -7,7 +7,8 @@
 	},
 	"Base" : {
 		"surfaceGravity": 10,
-		"surfaceSize": 55
+		"surfaceSize": 55,
+		"soiOverride": 500
 	},
 	"HeightMap": {
 		"heightmap": "planets/LeeSpork.ModJam5.LogFireplace_heightmap.png",
