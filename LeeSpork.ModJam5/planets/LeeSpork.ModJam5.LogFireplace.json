@@ -55,13 +55,6 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_VaseThin",
 			},
 			{
-				"rename": "MyCampfire",
-				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
-				"rotation": {"x": 34.3645325, "y": 250.762054, "z": 86.06164},
-				"alignRadial": null,
-				"position": {"x": 10.5728054, "y": 2.17122459, "z": -36.2656746}
-			},
-			{
 				"rename": "Tree_NorthPole",
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
 				"rotation": {"x": 3.90496349, "y": 238.265747, "z": 3.24986529},
@@ -83,12 +76,6 @@
 				"parentPath": "Sector/MyThinVase",
 				"position": {"x": 0, "y": 0.5618, "z": 0},
 				"isRelativeToParent": true
-			},
-			{
-				"rename": "Note_Campfire",
-				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/Prefab_HEA_DeepFieldExhibit/DeepFieldNotes_1/plaque_paper_1 (1)",
-				"position": {"x": 9.3491, "y": 4.0271, "z": -36.4318},
-				"rotation": {"x": 67.3123, "y": 346.2, "z": 0.2908}
 			},
 			{
 				"rename": "KillVolumeDummy",
@@ -164,6 +151,14 @@
 				"position": {"x": -47.1228027,"y": 27.1584148,"z": -8.76209}
 			}
 		],
+		"campfires": [
+			{
+				"rename": "MyCampfire",
+				"rotation": {"x": 34.3645325, "y": 250.762054, "z": 86.06164},
+				"position": {"x": 10.5728054, "y": 2.17122459, "z": -36.2656746},
+				"canSleepHere": false
+			}
+		],
 		"geysers": [
 			{
 				"position": {"x": 2.527009, "y": -0.002185822, "z": 46.39281},
@@ -188,13 +183,6 @@
 				"radius": 1,
 				"xmlFile": "dialog/TreeRecorder.xml",
 				"pathToAnimController": "Sector/TreeRecorder",
-				"isRelativeToParent": true
-			},
-			{
-				"position": {"x": 0, "y": -0.15, "z": -0.05},
-				"radius": 0.4,
-				"xmlFile": "dialog/CampfireWarning.xml",
-				"parentPath": "Sector/Note_Campfire",
 				"isRelativeToParent": true
 			},
 			{
